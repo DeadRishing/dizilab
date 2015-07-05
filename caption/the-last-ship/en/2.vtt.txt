@@ -1,0 +1,3014 @@
+1
+00:00:02,252 --> 00:00:05,537
+_
+
+2
+00:00:06,518 --> 00:00:09,775
+_
+
+3
+00:00:10,784 --> 00:00:14,119
+_
+
+4
+00:00:15,943 --> 00:00:18,467
+_
+
+5
+00:00:18,468 --> 00:00:21,394
+_
+
+6
+00:00:21,682 --> 00:00:23,918
+We'll need another 20
+amps for a new circuit,
+
+7
+00:00:23,919 --> 00:00:26,494
+at least 3 more laptops,
+and 4 external hard drives.
+
+8
+00:00:26,495 --> 00:00:27,703
+- Yes, ma'am.
+- You can leave that right there.
+
+9
+00:00:27,704 --> 00:00:29,912
+- Thank you. -
+Yes, ma'am. - Well?
+
+10
+00:00:29,913 --> 00:00:32,113
+They're gonna get us what we need.
+
+11
+00:00:33,182 --> 00:00:34,192
+If you mean to do this,
+
+12
+00:00:34,193 --> 00:00:36,752
+we're gonna need a much more
+comprehensive cooling system
+
+13
+00:00:36,753 --> 00:00:37,485
+for the specimens.
+
+14
+00:00:37,486 --> 00:00:38,920
+And I have told them as much.
+
+15
+00:00:38,921 --> 00:00:40,855
+Vials, syringes... We're
+running low on everything.
+
+16
+00:00:40,856 --> 00:00:42,290
+Quincy, I know.
+
+17
+00:00:42,291 --> 00:00:44,997
+We will replenish once
+we get to Guantanamo Bay.
+
+18
+00:00:44,998 --> 00:00:48,366
+I'm going to ask you a question,
+and I want you to listen to me.
+
+19
+00:00:48,367 --> 00:00:49,534
+Go ahead.
+
+20
+00:00:49,535 --> 00:00:53,237
+You're working 20 hours a
+day, you're not sleeping.
+
+21
+00:00:53,238 --> 00:00:55,973
+This is a marathon, not a sprint.
+
+22
+00:00:55,974 --> 00:00:59,309
+Let me go off-ship this time.
+
+23
+00:01:00,812 --> 00:01:04,380
+I'll think about it.
+
+24
+00:01:12,489 --> 00:01:13,590
+Ready! Up!
+
+25
+00:01:13,591 --> 00:01:14,792
+Fire!
+
+26
+00:01:14,793 --> 00:01:15,893
+Fire!
+
+27
+00:01:15,894 --> 00:01:16,894
+Fire!
+
+28
+00:01:16,895 --> 00:01:18,362
+Fire!
+
+29
+00:01:18,363 --> 00:01:20,931
+Fire! Ready! Halt!
+
+30
+00:01:20,932 --> 00:01:23,734
+Head shot!
+
+31
+00:01:23,735 --> 00:01:24,935
+Weapons on safe!
+
+32
+00:01:24,936 --> 00:01:26,337
+Like I said, keep that right arm locked,
+
+33
+00:01:26,338 --> 00:01:28,539
+and make sure you lean into that recoil.
+
+34
+00:01:28,540 --> 00:01:29,440
+Yes, sir.
+
+35
+00:01:29,441 --> 00:01:30,974
+- Next group!
+- How they looking?
+
+36
+00:01:30,975 --> 00:01:33,677
+Janowitz has an eye, Harris
+and Cossetti have the balls.
+
+37
+00:01:33,678 --> 00:01:36,246
+Depends on what we're
+gonna need out there, sir.
+
+38
+00:01:36,247 --> 00:01:39,782
+Balls. We need the balls.
+
+39
+00:01:39,783 --> 00:01:40,951
+Yes, sir.
+
+40
+00:01:40,952 --> 00:01:43,019
+Tac Team 1... advance!
+
+41
+00:01:43,020 --> 00:01:47,390
+Tac 2, let's go!
+
+42
+00:01:47,391 --> 00:01:48,524
+Advance!
+
+43
+00:01:48,525 --> 00:01:50,692
+Damn it, Miller!
+
+44
+00:01:51,361 --> 00:01:52,595
+Muzzle down!
+
+45
+00:01:52,596 --> 00:01:54,096
+Sorry, sir!
+
+46
+00:01:54,097 --> 00:01:55,398
+Sorry's not gonna do nettles any good
+
+47
+00:01:55,399 --> 00:01:57,367
+when you shoot his head off at Gitmo!
+
+48
+00:01:57,368 --> 00:02:00,835
+Now Tac 1, Tac 2 reset! Do it again!
+
+49
+00:02:03,305 --> 00:02:05,174
+It's gonna take time, sir.
+
+50
+00:02:05,175 --> 00:02:07,276
+Time is something we don't have.
+
+51
+00:02:07,277 --> 00:02:09,345
+Every day we don't come home with a vaccine
+
+52
+00:02:09,346 --> 00:02:11,480
+is a day another half a million people die.
+
+53
+00:02:11,481 --> 00:02:13,715
+I just want to make sure they're ready.
+
+54
+00:02:13,716 --> 00:02:14,783
+You'll get them there.
+
+55
+00:02:14,784 --> 00:02:16,919
+Yes, sir.
+
+56
+00:02:16,920 --> 00:02:20,421
+Tac Team 1... advance!
+
+57
+00:02:28,366 --> 00:02:31,758
+Sync and corrections by n17t01
+www.addic7ed.com
+
+58
+00:02:33,503 --> 00:02:37,939
+You will operate on three-man
+watch teams, 10-hour shifts.
+
+59
+00:02:37,940 --> 00:02:40,742
+Captain wants a complete
+log of every transmission.
+
+60
+00:02:40,743 --> 00:02:42,677
+You may be hearing emergency broadcast
+
+61
+00:02:42,678 --> 00:02:45,380
+and ham-radio distress
+calls from around the world,
+
+62
+00:02:45,381 --> 00:02:48,482
+but we do not, under any circumstances,
+
+63
+00:02:48,483 --> 00:02:49,717
+respond or transmit.
+
+64
+00:02:49,718 --> 00:02:52,653
+Strict EMCON. Our position
+must remain secure.
+
+65
+00:02:52,654 --> 00:02:55,523
+So the Russians are still following us.
+
+66
+00:02:55,524 --> 00:02:56,791
+We don't know that.
+
+67
+00:02:56,792 --> 00:02:59,627
+Well, somebody shot a nuke
+over our heads outside France.
+
+68
+00:02:59,628 --> 00:03:01,729
+You been in CIC the last five days?
+
+69
+00:03:01,730 --> 00:03:03,130
+Yes, ma'am.
+
+70
+00:03:03,131 --> 00:03:05,599
+Were there any surface
+or subsurface contacts?
+
+71
+00:03:05,600 --> 00:03:06,634
+No, ma'am.
+
+72
+00:03:06,635 --> 00:03:08,869
+Then let's not start spreading rumors.
+
+73
+00:03:08,870 --> 00:03:11,171
+They can be as contagious as the virus.
+
+74
+00:03:11,172 --> 00:03:13,106
+This room will be restricted access...
+
+75
+00:03:13,107 --> 00:03:14,975
+comms specialists only. Got it?
+
+76
+00:03:14,976 --> 00:03:16,310
+Yes, ma'am.
+
+77
+00:03:16,311 --> 00:03:19,645
+Chief Engineer, give me a status!
+
+78
+00:03:19,747 --> 00:03:21,548
+Sir, the fuel from the cruise ship
+
+79
+00:03:21,549 --> 00:03:23,717
+is absolutely filthy
+and just keeps degrading.
+
+80
+00:03:23,718 --> 00:03:26,886
+If we don't hit pay dirt at Gitmo,
+we might as well break out the oars.
+
+81
+00:03:26,887 --> 00:03:28,988
+All right, well, we don't want
+to burn through our nozzles.
+
+82
+00:03:28,989 --> 00:03:30,857
+Better take a couple engines offline.
+
+83
+00:03:30,858 --> 00:03:32,124
+No can do, sir.
+
+84
+00:03:32,125 --> 00:03:34,727
+CO's ordered flank speed
+all the way to Gitmo.
+
+85
+00:03:34,728 --> 00:03:37,063
+And he's up to date on
+the condition of the fuel?
+
+86
+00:03:37,064 --> 00:03:38,696
+He is, sir.
+
+87
+00:03:41,000 --> 00:03:44,335
+Here you go, boy.
+
+88
+00:03:51,309 --> 00:03:52,944
+How's training going?
+
+89
+00:03:52,945 --> 00:03:54,980
+Well, I don't know exactly
+what we're training for.
+
+90
+00:03:54,981 --> 00:03:58,115
+Just gonna find a bunch of corpses.
+
+91
+00:04:00,051 --> 00:04:06,823
+Must be tough, having to train
+someone to replace Frankie.
+
+92
+00:04:10,661 --> 00:04:12,130
+I'm getting sick of this crap.
+
+93
+00:04:12,131 --> 00:04:14,399
+I hope we find something
+other than mashed potatoes
+
+94
+00:04:14,400 --> 00:04:16,734
+and cling peaches in Cuba.
+
+95
+00:04:17,703 --> 00:04:19,271
+Danny...
+
+96
+00:04:19,272 --> 00:04:21,072
+What?
+
+97
+00:04:21,073 --> 00:04:22,274
+You're not dealing.
+
+98
+00:04:22,275 --> 00:04:23,674
+Frankie's dead.
+
+99
+00:04:23,675 --> 00:04:27,378
+So are my parents,
+probably, and so are yours,
+
+100
+00:04:27,379 --> 00:04:29,547
+everyone else's in the whole damn world.
+
+101
+00:04:29,548 --> 00:04:33,083
+So what exactly is the proper
+way for me to be dealing?
+
+102
+00:04:41,293 --> 00:04:45,029
+We're low on food, low on water.
+
+103
+00:04:45,030 --> 00:04:46,363
+We need help.
+
+104
+00:04:46,364 --> 00:04:49,766
+We're in a warehouse off of Route 17.
+
+105
+00:04:49,767 --> 00:04:52,169
+I'm with my two boys, so...
+
+106
+00:04:52,170 --> 00:04:53,837
+...my voice.
+
+107
+00:04:53,838 --> 00:04:57,006
+We need medical assistance, please.
+
+108
+00:04:57,007 --> 00:04:58,508
+We are right off...
+
+109
+00:04:58,509 --> 00:05:00,477
+I don't really feel comfortable
+
+110
+00:05:00,478 --> 00:05:02,913
+speaking in public, but...
+
+111
+00:05:02,914 --> 00:05:06,249
+I just wanted to say
+something about my mother,
+
+112
+00:05:06,250 --> 00:05:08,718
+who's in Iowa, somewhere, I hope.
+
+113
+00:05:08,719 --> 00:05:13,522
+God, please look over
+her and keep her safe.
+
+114
+00:05:13,523 --> 00:05:16,125
+What's her name, son?
+
+115
+00:05:16,126 --> 00:05:17,427
+Barbara.
+
+116
+00:05:17,428 --> 00:05:19,429
+Barbara Miller.
+
+117
+00:05:19,430 --> 00:05:22,096
+This is her.
+
+118
+00:05:27,770 --> 00:05:31,273
+I'd like to say a prayer for my boyfriend.
+
+119
+00:05:31,274 --> 00:05:32,741
+His name's Mickey.
+
+120
+00:05:32,742 --> 00:05:35,210
+Well, his real name's Morris.
+
+121
+00:05:35,211 --> 00:05:38,447
+Uh, he...
+
+122
+00:05:38,448 --> 00:05:42,017
+he hates having his
+picture taken, so, um...
+
+123
+00:05:42,018 --> 00:05:44,086
+I've just got this one.
+
+124
+00:05:44,087 --> 00:05:47,655
+It's a... it's a selfie.
+
+125
+00:05:47,656 --> 00:05:51,360
+This is my father, Paul,
+my brothers Nate and Ronnie.
+
+126
+00:05:51,361 --> 00:05:56,031
+Couldn't get through to them,
+so I don't know where they are.
+
+127
+00:05:56,032 --> 00:05:59,868
+Like most of us, I guess.
+
+128
+00:05:59,869 --> 00:06:01,536
+But, um...
+
+129
+00:06:01,537 --> 00:06:03,505
+what keeps me going is the idea
+
+130
+00:06:03,506 --> 00:06:06,474
+that we might be able to help them somehow.
+
+131
+00:06:06,475 --> 00:06:08,543
+You know, maybe there was a reason
+
+132
+00:06:08,544 --> 00:06:11,245
+we were out there in
+the Arctic all that time.
+
+133
+00:06:11,246 --> 00:06:13,748
+Maybe this is God's plan for us.
+
+134
+00:06:13,749 --> 00:06:16,417
+Amen to that.
+
+135
+00:06:16,418 --> 00:06:17,852
+Amen.
+
+136
+00:06:17,853 --> 00:06:20,988
+The rules of the virus are these...
+
+137
+00:06:20,989 --> 00:06:23,324
+it's airborne, which means you can get it
+
+138
+00:06:23,325 --> 00:06:24,925
+from anyone who's a carrier...
+
+139
+00:06:24,926 --> 00:06:27,961
+anyone manifesting the disease,
+even a recently deceased corpse.
+
+140
+00:06:27,962 --> 00:06:30,431
+Typical symptoms are lethargy and a cough,
+
+141
+00:06:30,432 --> 00:06:34,068
+followed by bleeding
+sores and hemorrhaging,
+
+142
+00:06:34,069 --> 00:06:36,837
+ending in dementia and total blood loss.
+
+143
+00:06:36,838 --> 00:06:38,872
+How long is the incubation period?
+
+144
+00:06:38,873 --> 00:06:39,840
+Three to five days.
+
+145
+00:06:39,841 --> 00:06:41,575
+At least, that's what I understood
+
+146
+00:06:41,576 --> 00:06:44,144
+from my last contact with the CDC.
+
+147
+00:06:44,145 --> 00:06:45,712
+And when was that?
+
+148
+00:06:45,713 --> 00:06:47,814
+Three weeks ago, when we
+were still up in the Arctic.
+
+149
+00:06:47,815 --> 00:06:50,651
+A-are you saying the
+incubation period can change?
+
+150
+00:06:50,652 --> 00:06:52,985
+The virus has been mutating for some time,
+
+151
+00:06:52,986 --> 00:06:55,555
+although I believe that now that
+it's been artificially altered,
+
+152
+00:06:55,556 --> 00:06:56,923
+it's been stabilized.
+
+153
+00:06:56,924 --> 00:06:58,890
+You "believe"?
+
+154
+00:07:00,460 --> 00:07:02,495
+What about animals?
+
+155
+00:07:02,496 --> 00:07:05,231
+If you're concerned about Halsey,
+
+156
+00:07:05,232 --> 00:07:06,933
+dogs happen to be immune.
+
+157
+00:07:06,934 --> 00:07:08,701
+Other animals can contract the disease.
+
+158
+00:07:08,702 --> 00:07:10,469
+They just can't transmit it to humans.
+
+159
+00:07:10,470 --> 00:07:11,604
+Thought the birds from the Arctic
+
+160
+00:07:11,605 --> 00:07:12,872
+were the original carriers.
+
+161
+00:07:12,873 --> 00:07:14,273
+The birds were the original carriers.
+
+162
+00:07:14,274 --> 00:07:15,507
+The virus jumped,
+
+163
+00:07:15,508 --> 00:07:17,376
+probably from their feces to a mammal
+
+164
+00:07:17,377 --> 00:07:19,244
+before mutating and landing on us.
+
+165
+00:07:19,245 --> 00:07:22,481
+After several mutations,
+it was artificially altered.
+
+166
+00:07:22,482 --> 00:07:24,849
+It is that version of the mutated strain
+
+167
+00:07:24,850 --> 00:07:27,286
+that is currently devastating our planet.
+
+168
+00:07:27,287 --> 00:07:32,857
+So, CBR gear at all times,
+except outside in open spaces,
+
+169
+00:07:32,858 --> 00:07:35,427
+masks can be off to preserve your oxygen.
+
+170
+00:07:35,428 --> 00:07:36,928
+And inside?
+
+171
+00:07:36,929 --> 00:07:39,498
+One infected person could
+jeopardize this entire ship...
+
+172
+00:07:39,499 --> 00:07:42,332
+simply by breathing.
+
+173
+00:07:46,004 --> 00:07:50,141
+Question... Before we send
+our men into a hot zone,
+
+174
+00:07:50,142 --> 00:07:51,710
+if the virus keeps mutating
+
+175
+00:07:51,711 --> 00:07:54,579
+and you haven't heard from
+homeland in almost a month,
+
+176
+00:07:54,580 --> 00:07:57,781
+how could you be sure of
+what you're so sure of?
+
+177
+00:08:02,587 --> 00:08:07,958
+If I had any doubt about
+what I was saying...
+
+178
+00:08:07,959 --> 00:08:10,828
+I would tell you.
+
+179
+00:08:10,829 --> 00:08:14,130
+I would hope so.
+
+180
+00:08:15,132 --> 00:08:18,135
+I see you've cooled off.
+
+181
+00:08:18,136 --> 00:08:19,503
+I'm fine.
+
+182
+00:08:19,504 --> 00:08:23,273
+What was that?
+
+183
+00:08:23,274 --> 00:08:24,742
+Just asking questions.
+
+184
+00:08:24,743 --> 00:08:28,844
+You were undermining her
+in front of the officers.
+
+185
+00:08:30,947 --> 00:08:32,582
+I know, Mike.
+
+186
+00:08:32,583 --> 00:08:36,219
+She lied to us for four months.
+
+187
+00:08:36,220 --> 00:08:38,755
+Yeah, and while she was
+talking to home every week,
+
+188
+00:08:38,756 --> 00:08:41,324
+we didn't even get a
+chance to warn our families.
+
+189
+00:08:41,325 --> 00:08:43,293
+We're just supposed to get over that?
+
+190
+00:08:43,294 --> 00:08:44,894
+Yeah, we are.
+
+191
+00:08:46,144 --> 00:08:48,464
+Well, she's got a long way to
+go before she earns my trust.
+
+192
+00:08:48,465 --> 00:08:49,498
+That's all.
+
+193
+00:08:49,499 --> 00:08:51,066
+What about me?
+
+194
+00:08:52,368 --> 00:08:54,270
+There's no Navy, no infrastructure,
+
+195
+00:08:54,271 --> 00:08:55,772
+no food or fuel supply.
+
+196
+00:08:55,773 --> 00:08:57,707
+We don't know what we're
+gonna find anywhere we go,
+
+197
+00:08:57,708 --> 00:09:01,144
+and we're gonna have to
+improvise every step of the way.
+
+198
+00:09:01,145 --> 00:09:03,079
+Now, I'm gonna need my XO...
+
+199
+00:09:03,080 --> 00:09:04,112
+To fall in line?
+
+200
+00:09:04,113 --> 00:09:06,048
+To execute...
+
+201
+00:09:06,049 --> 00:09:12,054
+whether or not he agrees with my decisions.
+
+202
+00:09:12,055 --> 00:09:15,791
+Now, I'm gonna ask you one
+time and one time only...
+
+203
+00:09:15,792 --> 00:09:17,092
+Are you with me?
+
+204
+00:09:17,093 --> 00:09:20,628
+I took an oath, and I still
+respect the chain of command.
+
+205
+00:09:20,629 --> 00:09:21,930
+That wasn't my question.
+
+206
+00:09:21,931 --> 00:09:24,164
+I'm with you.
+
+207
+00:09:30,638 --> 00:09:32,340
+You really think she can do this?
+
+208
+00:09:32,341 --> 00:09:36,310
+She's the only hope we got.
+
+209
+00:10:02,603 --> 00:10:05,105
+Coming over Gitmo now.
+
+210
+00:10:05,106 --> 00:10:06,838
+Negative visual contact.
+
+211
+00:10:08,842 --> 00:10:10,610
+Negative movement.
+
+212
+00:10:10,611 --> 00:10:12,278
+Where is everybody?
+
+213
+00:10:12,279 --> 00:10:15,420
+Same on thermals.
+
+214
+00:10:17,284 --> 00:10:19,819
+We have zero, copy, zero ground movement.
+
+215
+00:10:19,820 --> 00:10:22,555
+There were 9,000 people stationed there.
+
+216
+00:10:22,556 --> 00:10:25,888
+The food warehouse and the
+hospital are pretty spread out.
+
+217
+00:10:25,889 --> 00:10:27,521
+Fuel rig's all the way up there.
+
+218
+00:10:28,423 --> 00:10:30,926
+That's why we're gonna go with three teams.
+
+219
+00:10:30,927 --> 00:10:32,194
+I'll take the food warehouse.
+
+220
+00:10:32,195 --> 00:10:34,096
+You'll get the hospital. Fuel team ready?
+
+221
+00:10:34,097 --> 00:10:36,063
+We are, sir.
+
+222
+00:10:36,064 --> 00:10:37,098
+Stay frosty.
+
+223
+00:10:37,099 --> 00:10:39,200
+Something about this doesn't feel right.
+
+224
+00:10:39,201 --> 00:10:40,667
+Yes, sir.
+
+225
+00:10:46,775 --> 00:10:49,778
+You're absolutely the most
+obstinate person I've ever met.
+
+226
+00:10:49,779 --> 00:10:51,112
+You know that, don't you?
+
+227
+00:10:51,113 --> 00:10:53,114
+Well, I don't know everyone
+that you've ever met.
+
+228
+00:10:53,115 --> 00:10:54,282
+It's insane.
+
+229
+00:10:54,283 --> 00:10:55,683
+If I let you go, you'll
+be out there all week.
+
+230
+00:10:55,684 --> 00:10:56,918
+You're too meticulous, Quince.
+
+231
+00:10:56,919 --> 00:10:58,319
+What if something happens to you?
+
+232
+00:10:58,320 --> 00:11:00,154
+He's right. We can't
+risk you leaving the ship.
+
+233
+00:11:00,155 --> 00:11:01,856
+Thank you. I'll get my suit.
+
+234
+00:11:01,857 --> 00:11:03,157
+Not so fast, Dr. Tophet.
+
+235
+00:11:03,158 --> 00:11:04,625
+We can't risk either one of you.
+
+236
+00:11:04,626 --> 00:11:05,927
+That's flattering, but...
+
+237
+00:11:05,928 --> 00:11:08,095
+How do you plan on getting us the supplies?
+
+238
+00:11:08,096 --> 00:11:09,996
+I mean, not to underestimate
+your men's capabilities,
+
+239
+00:11:09,997 --> 00:11:11,832
+but it's highly unlikely
+they're going to be able
+
+240
+00:11:11,833 --> 00:11:13,600
+to identify what we need.
+
+241
+00:11:13,601 --> 00:11:15,569
+We can knock an ICBM out of the sky.
+
+242
+00:11:15,570 --> 00:11:17,103
+I think we can handle this.
+
+243
+00:11:17,104 --> 00:11:19,605
+An officer will escort you both to CIC.
+
+244
+00:11:20,240 --> 00:11:22,407
+And what about you, Captain?
+
+245
+00:11:24,611 --> 00:11:26,746
+What if something happens to you?
+
+246
+00:11:26,747 --> 00:11:28,048
+The mission will go on
+
+247
+00:11:28,049 --> 00:11:30,851
+in Commander Slattery's very capable hands.
+
+248
+00:11:30,852 --> 00:11:34,754
+After last night's
+performance, I'm not so sure.
+
+249
+00:11:34,755 --> 00:11:36,122
+Well...
+
+250
+00:11:36,123 --> 00:11:39,291
+we're all out on a limb here, aren't we?
+
+251
+00:11:59,246 --> 00:12:01,546
+Vulture Team is feet dry on the east beach.
+
+252
+00:12:01,547 --> 00:12:03,181
+Proceed to first objective.
+
+253
+00:12:26,037 --> 00:12:28,972
+Approaching the south gate.
+
+254
+00:12:35,447 --> 00:12:38,648
+Cobra Team is approaching the hospital.
+
+255
+00:12:49,560 --> 00:12:50,828
+Over here.
+
+256
+00:12:56,667 --> 00:12:58,936
+We've attached a helmet
+cam to Lieutenant Green.
+
+257
+00:12:58,937 --> 00:13:02,039
+We can see everything he does
+and communicate to him by UHF
+
+258
+00:13:02,040 --> 00:13:04,506
+so you get exactly what you need.
+
+259
+00:13:06,376 --> 00:13:07,976
+It'll be fine.
+
+260
+00:13:08,645 --> 00:13:10,613
+That's my chair.
+
+261
+00:13:14,717 --> 00:13:16,119
+Look, I understand
+
+262
+00:13:16,120 --> 00:13:18,488
+that people aren't
+particularly thrilled with me,
+
+263
+00:13:18,489 --> 00:13:22,959
+but I had orders from the Pentagon.
+
+264
+00:13:22,960 --> 00:13:25,127
+We understand orders.
+
+265
+00:13:25,128 --> 00:13:28,897
+We follow them every day.
+
+266
+00:13:30,467 --> 00:13:31,901
+Let's go.
+
+267
+00:13:31,902 --> 00:13:35,872
+Whoa. Whoa. Masks on. Masks on.
+
+268
+00:13:35,873 --> 00:13:37,606
+All right, mask up.
+
+269
+00:13:37,607 --> 00:13:40,508
+We got 60 minutes of air, max conserve.
+
+270
+00:13:43,145 --> 00:13:45,982
+Chief Lynn, XO... Fuel
+Team's approaching the rigs.
+
+271
+00:13:45,983 --> 00:13:48,317
+Expect to receive fuel within 15 minutes.
+
+272
+00:13:48,318 --> 00:13:49,984
+Roger, XO.
+
+273
+00:13:58,961 --> 00:14:01,396
+We need to find the valve wheel.
+
+274
+00:14:01,397 --> 00:14:03,164
+Couldn't have gone far.
+
+275
+00:14:03,165 --> 00:14:05,433
+Vulture Team heading through south sector.
+
+276
+00:14:05,434 --> 00:14:07,401
+All's quiet.
+
+277
+00:14:27,321 --> 00:14:30,858
+Well, you're bucking for a
+silver star, aren't you, Miller?
+
+278
+00:14:30,859 --> 00:14:33,060
+Can't teach courage like that.
+
+279
+00:14:33,061 --> 00:14:34,228
+Follow our lead.
+
+280
+00:14:34,229 --> 00:14:37,163
+We'll be in and out in less than an hour.
+
+281
+00:14:39,266 --> 00:14:41,201
+Too much?
+
+282
+00:14:41,202 --> 00:14:43,203
+Just enough.
+
+283
+00:15:00,620 --> 00:15:03,023
+Don't touch that.
+
+284
+00:15:03,024 --> 00:15:04,858
+You discharge that, you'll flood
+
+285
+00:15:04,859 --> 00:15:07,493
+the whole engineering room
+with poisonous halon gas.
+
+286
+00:15:07,494 --> 00:15:09,029
+Uh, my stateroom is freezing,
+
+287
+00:15:09,030 --> 00:15:10,931
+and I was told one of these levers
+
+288
+00:15:10,932 --> 00:15:13,033
+might shut off the AC to my space.
+
+289
+00:15:13,034 --> 00:15:14,367
+By who?
+
+290
+00:15:14,368 --> 00:15:15,602
+I don't know.
+
+291
+00:15:15,603 --> 00:15:18,403
+Uh... One of the enlisted men.
+
+292
+00:15:18,938 --> 00:15:20,339
+Just... just do us a favor...
+
+293
+00:15:20,340 --> 00:15:22,375
+don't touch anything on the ship, okay?
+
+294
+00:15:22,376 --> 00:15:23,509
+Of course.
+
+295
+00:15:23,510 --> 00:15:24,677
+You need help, you ask for it.
+
+296
+00:15:24,678 --> 00:15:26,011
+Of course. Very sorry.
+
+297
+00:15:26,012 --> 00:15:27,945
+Okay.
+
+298
+00:16:08,252 --> 00:16:09,821
+Eyes in front of you.
+
+299
+00:16:09,822 --> 00:16:11,322
+You do not puke in your mask.
+
+300
+00:16:11,323 --> 00:16:15,760
+Is that what it was
+like on the cruise ship?
+
+301
+00:16:15,761 --> 00:16:19,230
+None of them want to talk about it.
+
+302
+00:16:19,231 --> 00:16:23,332
+That's because there are no words.
+
+303
+00:16:35,379 --> 00:16:39,582
+Nathan James, Tiger Team... we're all set.
+
+304
+00:16:39,583 --> 00:16:41,518
+Copy that.
+
+305
+00:16:41,519 --> 00:16:43,353
+We are ready to receive.
+
+306
+00:16:43,354 --> 00:16:47,323
+CCS, Bridge... your Martini is on its way.
+
+307
+00:16:47,324 --> 00:16:49,192
+1, 2, 3!
+
+308
+00:16:54,131 --> 00:16:58,201
+One more time. We got it.
+
+309
+00:16:58,202 --> 00:16:59,602
+1, 2, 3!
+
+310
+00:17:07,743 --> 00:17:11,480
+Bridge, CCS... fueling commenced.
+
+311
+00:17:13,215 --> 00:17:15,117
+We're in.
+
+312
+00:17:15,118 --> 00:17:16,518
+Right, you're looking for steroids,
+
+313
+00:17:16,519 --> 00:17:17,920
+Interferon, Ribavirin,
+
+314
+00:17:17,921 --> 00:17:21,924
+any broad-spectrum
+antibiotics you can find.
+
+315
+00:17:21,925 --> 00:17:25,661
+We need plastic wear, monitoring
+equipment, culture plates.
+
+316
+00:17:25,662 --> 00:17:27,262
+Show me the whole room.
+
+317
+00:17:27,263 --> 00:17:30,599
+Bring it 'round slowly.
+
+318
+00:17:30,600 --> 00:17:33,302
+Over to the right.
+
+319
+00:17:33,303 --> 00:17:36,971
+Back, back, back! Back to the left.
+
+320
+00:17:37,906 --> 00:17:39,741
+Move forward, closer.
+
+321
+00:17:39,742 --> 00:17:43,278
+That's it!
+
+322
+00:17:43,279 --> 00:17:45,479
+That's a centrifuge.
+
+323
+00:17:48,016 --> 00:17:51,319
+No apparent activity in sector Charlie 5.
+
+324
+00:17:51,320 --> 00:17:54,555
+Vulture Team proceeding
+directly to objective.
+
+325
+00:17:54,556 --> 00:17:56,490
+Copy that, Vulture 1.
+
+326
+00:18:18,445 --> 00:18:20,112
+Masks.
+
+327
+00:18:23,350 --> 00:18:25,418
+I'm an American!
+
+328
+00:18:25,419 --> 00:18:27,454
+Get the hell out of there!
+
+329
+00:18:27,455 --> 00:18:29,256
+Stop! Stop!
+
+330
+00:18:29,257 --> 00:18:30,257
+Stop it!
+
+331
+00:18:30,258 --> 00:18:32,291
+Get the hell out of there!
+
+332
+00:18:46,191 --> 00:18:47,458
+Get up, get up! Get going!
+
+333
+00:18:47,459 --> 00:18:48,492
+Weapons!
+
+334
+00:18:54,199 --> 00:18:56,067
+Take it easy! Easy!
+
+335
+00:18:56,068 --> 00:18:57,368
+I'm friendly!
+
+336
+00:18:57,369 --> 00:18:59,170
+I'm friendly, American!
+
+337
+00:18:59,171 --> 00:19:03,574
+This is Vulture 1, under attack
+by unknown number of hostiles.
+
+338
+00:19:03,575 --> 00:19:05,309
+Stand by for fire mission.
+
+339
+00:19:05,310 --> 00:19:08,078
+Set general quarters! Threat warning red!
+
+340
+00:19:08,079 --> 00:19:09,112
+Weapons tight!
+
+341
+00:19:09,640 --> 00:19:11,040
+General quarters! General quarters!
+
+342
+00:19:11,041 --> 00:19:12,616
+All hands, man your battle stations!
+
+343
+00:19:12,617 --> 00:19:13,818
+Light off mount 5-1.
+
+344
+00:19:13,819 --> 00:19:15,852
+Shift to local ready surface.
+
+345
+00:19:17,822 --> 00:19:20,424
+Vulture 1, Nathan James...
+do we have a target?
+
+346
+00:19:20,425 --> 00:19:21,724
+Negative.
+
+347
+00:19:21,725 --> 00:19:24,494
+Cobra Team, Tiger Team... be advised...
+
+348
+00:19:24,495 --> 00:19:26,430
+hostiles operating on base.
+
+349
+00:19:26,431 --> 00:19:27,564
+IEDs are being employed.
+
+350
+00:19:27,565 --> 00:19:28,631
+Set FIPCOM Delta.
+
+351
+00:19:28,632 --> 00:19:30,133
+Copy that, Vulture 1.
+
+352
+00:19:30,134 --> 00:19:32,336
+Master Chief, we need
+guns up on the perimeter!
+
+353
+00:19:32,337 --> 00:19:33,337
+I'm on it. O'Connor!
+
+354
+00:19:33,338 --> 00:19:34,571
+This is Cobra Team.
+
+355
+00:19:34,572 --> 00:19:35,505
+We're a half-mile south-southeast
+
+356
+00:19:35,506 --> 00:19:36,806
+from your port ops.
+
+357
+00:19:36,807 --> 00:19:39,108
+Say the word and we will provide backup.
+
+358
+00:19:39,109 --> 00:19:40,276
+Negative.
+
+359
+00:19:40,277 --> 00:19:42,078
+I don't want you walking into an ambush.
+
+360
+00:19:42,079 --> 00:19:42,979
+Stay on mission.
+
+361
+00:19:42,980 --> 00:19:46,449
+Yes, sir.
+
+362
+00:19:46,450 --> 00:19:47,717
+Back up!
+
+363
+00:19:47,718 --> 00:19:49,552
+Jesus, guys, I'm on your side!
+
+364
+00:19:49,553 --> 00:19:50,553
+I said back up!
+
+365
+00:19:50,554 --> 00:19:53,022
+I'm not sick!
+
+366
+00:19:53,023 --> 00:19:57,659
+Even the assbags who tried
+to kill you are not sick!
+
+367
+00:19:57,660 --> 00:20:01,430
+All right, set cover, but let him come.
+
+368
+00:20:01,431 --> 00:20:04,533
+All right, step forward! Slowly!
+
+369
+00:20:04,534 --> 00:20:06,135
+Hey, hey, hey!
+
+370
+00:20:06,136 --> 00:20:08,770
+Keep it slow!
+
+371
+00:20:08,771 --> 00:20:10,506
+Moving slow.
+
+372
+00:20:10,507 --> 00:20:15,143
+Everybody just take it easy.
+
+373
+00:20:15,144 --> 00:20:16,512
+That's far enough.
+
+374
+00:20:16,513 --> 00:20:21,717
+Okay, Commodore, you want
+to get the lowdown or not?
+
+375
+00:20:21,718 --> 00:20:23,552
+Let's start with the assbags.
+
+376
+00:20:23,553 --> 00:20:25,086
+They're Al-Qaeda.
+
+377
+00:20:25,087 --> 00:20:27,355
+- What's left of them, anyway.
+- How many?
+
+378
+00:20:27,356 --> 00:20:29,991
+14 altogether, but they're spread out now
+
+379
+00:20:29,992 --> 00:20:32,227
+to make you a welcoming party.
+
+380
+00:20:32,228 --> 00:20:33,161
+Nobody's sick?
+
+381
+00:20:33,162 --> 00:20:34,829
+We were all in Section 7...
+
+382
+00:20:34,830 --> 00:20:37,232
+isolated part of the camp
+for high-level detainees.
+
+383
+00:20:37,233 --> 00:20:39,734
+We had our own food stocks, own facilities.
+
+384
+00:20:39,735 --> 00:20:43,804
+None of us came in contact with the virus.
+
+385
+00:20:43,805 --> 00:20:45,573
+Everybody else was evacuated.
+
+386
+00:20:45,574 --> 00:20:46,974
+We had the run of the place.
+
+387
+00:20:46,975 --> 00:20:50,945
+- "We"?
+- Me and six other guards.
+
+388
+00:20:50,946 --> 00:20:54,281
+Subcontractors, private security.
+
+389
+00:20:54,282 --> 00:20:59,719
+That point, we figured, no
+governments, no politics.
+
+390
+00:20:59,720 --> 00:21:01,955
+We let them go.
+
+391
+00:21:01,956 --> 00:21:03,290
+And they turned on you.
+
+392
+00:21:03,291 --> 00:21:06,560
+That's what's left of my best friend.
+
+393
+00:21:06,561 --> 00:21:07,994
+Other guy's MIA.
+
+394
+00:21:07,995 --> 00:21:10,531
+I'm the last man standing.
+
+395
+00:21:10,532 --> 00:21:11,898
+So where the hell are they?
+
+396
+00:21:11,899 --> 00:21:13,900
+Most of them went to
+guard the food warehouse,
+
+397
+00:21:13,901 --> 00:21:16,335
+but at least three of them
+peeled off towards your ship
+
+398
+00:21:16,336 --> 00:21:17,303
+with rocket launchers.
+
+399
+00:21:17,304 --> 00:21:18,638
+You're just telling me this now?
+
+400
+00:21:18,639 --> 00:21:20,740
+You're the one asking the questions.
+
+401
+00:21:20,741 --> 00:21:23,643
+Nathan James, Vulture 1... be advised,
+
+402
+00:21:23,644 --> 00:21:25,111
+hostiles are armed with RPGs
+
+403
+00:21:25,112 --> 00:21:27,581
+and appear to be en route to your whiskey.
+
+404
+00:21:27,582 --> 00:21:29,415
+Tiger 1, Nathan James... cease pumping.
+
+405
+00:21:29,416 --> 00:21:32,818
+- Shut it down now.
+- Secure fueling.
+
+406
+00:21:32,819 --> 00:21:35,054
+So, what can you tell me
+about this food warehouse?
+
+407
+00:21:35,055 --> 00:21:36,855
+I can tell you how to get in there,
+
+408
+00:21:36,856 --> 00:21:39,191
+but it's gonna mean
+getting your hands dirty.
+
+409
+00:21:39,192 --> 00:21:40,425
+I've dirtied them before.
+
+410
+00:21:40,426 --> 00:21:44,196
+Tom Chandler, CO Nathan James, US Navy.
+
+411
+00:21:44,197 --> 00:21:47,965
+Tex Nolan. Welcome to Gitmo.
+
+412
+00:21:56,808 --> 00:22:00,678
+Man, only got 15 PSI.
+
+413
+00:22:00,679 --> 00:22:01,879
+Shit. I'm at 9%.
+
+414
+00:22:01,880 --> 00:22:04,182
+All right, guys, listen to me.
+
+415
+00:22:04,183 --> 00:22:07,885
+We got a job to do here,
+and we're not finished yet.
+
+416
+00:22:07,886 --> 00:22:11,355
+No supplies, no vaccine.
+
+417
+00:22:11,356 --> 00:22:14,826
+No vaccine, no going home,
+no seeing your families.
+
+418
+00:22:14,827 --> 00:22:16,560
+Lieutenant Green, please
+don't take any more chances.
+
+419
+00:22:16,561 --> 00:22:17,996
+Follow my lead.
+
+420
+00:22:17,997 --> 00:22:20,698
+We'll be out of here
+in less than 10, got it?
+
+421
+00:22:20,699 --> 00:22:22,834
+Let's do this thing.
+
+422
+00:22:22,835 --> 00:22:26,203
+Did he hear me?
+
+423
+00:22:26,204 --> 00:22:28,639
+He heard you.
+
+424
+00:22:30,175 --> 00:22:33,977
+Bridge, CCS... We're still taking on fuel.
+
+425
+00:22:33,978 --> 00:22:35,846
+Tiger Team, what the
+hell's going on down there?
+
+426
+00:22:35,847 --> 00:22:38,516
+The valve is frozen!
+We're working on it, sir!
+
+427
+00:22:38,517 --> 00:22:39,683
+Come on!
+
+428
+00:22:39,684 --> 00:22:42,085
+Ma'am, stand back.
+
+429
+00:22:42,086 --> 00:22:44,621
+XO, recommend disengaging
+the fuel hose on our end.
+
+430
+00:22:44,622 --> 00:22:47,490
+And spill the oil into the
+harbor while they have RPGs?
+
+431
+00:22:47,491 --> 00:22:48,959
+Hell, no.
+
+432
+00:22:48,960 --> 00:22:50,326
+TAO, Bridge... We have hostiles incoming.
+
+433
+00:22:50,327 --> 00:22:52,595
+Find me a target.
+
+434
+00:22:54,732 --> 00:22:57,300
+Again. 1, 2...
+
+435
+00:23:00,770 --> 00:23:03,173
+Nathan James, the valve stem is shot, sir.
+
+436
+00:23:03,174 --> 00:23:04,407
+We cannot stop the fuel.
+
+437
+00:23:04,408 --> 00:23:06,441
+Incoming!
+
+438
+00:23:07,277 --> 00:23:09,512
+Aah!
+
+439
+00:23:11,582 --> 00:23:12,782
+Ma'am!
+
+440
+00:23:17,086 --> 00:23:18,921
+Aah! Nathan James, this is MPA.
+
+441
+00:23:18,922 --> 00:23:20,522
+The Chief Engineer's been hit.
+
+442
+00:23:20,523 --> 00:23:22,158
+We need the doc up here, ASAP!
+
+443
+00:23:22,159 --> 00:23:24,093
+TAO, give me a targeting solution
+
+444
+00:23:24,094 --> 00:23:25,828
+- on that fuel-maintenance terminal.
+- Aye, sir.
+
+445
+00:23:25,829 --> 00:23:28,764
+OS 1, range and bearing to the terminal?
+
+446
+00:23:28,765 --> 00:23:32,301
+Rough bearing 220,
+approximately 1,500 yards.
+
+447
+00:23:33,503 --> 00:23:34,836
+They're going for the fuel tank.
+
+448
+00:23:34,837 --> 00:23:36,805
+They're gonna blow the whole ship!
+
+449
+00:23:36,806 --> 00:23:38,807
+CIC, Bridge... Where's
+my target acquisition?
+
+450
+00:23:38,808 --> 00:23:39,874
+Slew left 30.
+
+451
+00:23:39,875 --> 00:23:42,275
+Roger that. 30 degrees.
+
+452
+00:23:43,745 --> 00:23:46,147
+Bridge, Surface... Target acquired.
+
+453
+00:23:46,148 --> 00:23:47,882
+Fire.
+
+454
+00:24:02,430 --> 00:24:05,666
+Tiger Team, Nathan James...
+Doc Rios is en route.
+
+455
+00:24:05,667 --> 00:24:07,467
+ETA five minutes.
+
+456
+00:24:07,468 --> 00:24:11,038
+Vulture, Cobra, Nathan James...
+all known hostiles neutralized
+
+457
+00:24:11,039 --> 00:24:13,306
+in the vicinity of the fuel pier.
+
+458
+00:24:13,307 --> 00:24:16,309
+Vulture Team, copy that.
+
+459
+00:24:22,516 --> 00:24:24,317
+So, where are they gonna be?
+
+460
+00:24:24,318 --> 00:24:27,387
+Oatmeal and baked beans...
+it's the new women and children.
+
+461
+00:24:27,388 --> 00:24:29,356
+They're holed up in that warehouse.
+
+462
+00:24:29,357 --> 00:24:32,324
+They're gonna make us come in and get them.
+
+463
+00:24:32,859 --> 00:24:35,594
+Captain.
+
+464
+00:24:40,967 --> 00:24:43,069
+Animals.
+
+465
+00:24:43,070 --> 00:24:47,738
+Revenge is best served cold.
+
+466
+00:24:48,841 --> 00:24:51,609
+Let's eat.
+
+467
+00:24:55,747 --> 00:24:58,417
+Lieutenant Green, you
+have everything I need.
+
+468
+00:24:58,418 --> 00:25:00,519
+Please get out of there now.
+
+469
+00:25:00,520 --> 00:25:02,321
+Cobra 1, copy.
+
+470
+00:25:02,322 --> 00:25:04,589
+Proceeding to extract.
+
+471
+00:25:39,557 --> 00:25:41,693
+Go!
+
+472
+00:25:41,694 --> 00:25:43,813
+Sir, Cobra Team's trapped
+inside the hospital!
+
+473
+00:25:43,814 --> 00:25:45,096
+They're running out of air.
+
+474
+00:25:54,487 --> 00:25:56,823
+You located the shooters
+outside the hospital?
+
+475
+00:25:56,824 --> 00:25:58,691
+- Do we have a target?
+- Negative, sir.
+
+476
+00:25:58,692 --> 00:25:59,692
+Patch me in to Green.
+
+477
+00:25:59,693 --> 00:26:01,528
+- I'm out of air!
+- 2%.
+
+478
+00:26:01,529 --> 00:26:02,729
+Almost nothing.
+
+479
+00:26:02,730 --> 00:26:04,330
+Couple of minutes, max!
+
+480
+00:26:04,331 --> 00:26:06,399
+Cobra, I'm gonna peel off Vulture
+
+481
+00:26:06,400 --> 00:26:07,552
+to give you reinforcements.
+
+482
+00:26:07,553 --> 00:26:09,301
+No, it's a negative,
+sir. They're too far away.
+
+483
+00:26:09,302 --> 00:26:10,403
+They will never get here in time.
+
+484
+00:26:10,404 --> 00:26:13,072
+- But I got an idea.
+- Copy that.
+
+485
+00:26:13,073 --> 00:26:15,641
+Vulture Team preparing
+to hit the warehouse.
+
+486
+00:26:15,642 --> 00:26:17,308
+Lead the way.
+
+487
+00:27:05,489 --> 00:27:07,590
+Where are they?
+
+488
+00:27:13,765 --> 00:27:15,732
+Aah! Aah!
+
+489
+00:27:31,347 --> 00:27:34,350
+Grenade!
+
+490
+00:27:34,351 --> 00:27:36,818
+Aah!
+
+491
+00:27:53,502 --> 00:27:55,070
+Cruz, what's your status?
+
+492
+00:27:55,071 --> 00:27:56,939
+We're on the stairs approaching the roof.
+
+493
+00:27:56,940 --> 00:28:01,109
+10 seconds out. Check.
+
+494
+00:28:11,752 --> 00:28:14,320
+We got this, boy.
+
+495
+00:28:14,888 --> 00:28:17,590
+No worries.
+
+496
+00:28:19,994 --> 00:28:22,096
+Troops are on the ropes.
+
+497
+00:28:22,097 --> 00:28:24,464
+Extracting now.
+
+498
+00:28:33,140 --> 00:28:35,008
+We're in position.
+
+499
+00:28:35,009 --> 00:28:37,509
+Stand by to engage.
+
+500
+00:28:44,884 --> 00:28:46,352
+Get them!
+
+501
+00:28:46,353 --> 00:28:47,653
+_
+
+502
+00:28:49,255 --> 00:28:50,656
+Aah!
+
+503
+00:29:05,304 --> 00:29:08,007
+Unh!
+
+504
+00:29:08,008 --> 00:29:09,540
+Man down! Man down!
+
+505
+00:29:11,911 --> 00:29:13,579
+Damn it! We need the doc out here!
+
+506
+00:29:13,580 --> 00:29:16,415
+Sir, he's still with Tiger
+1 by the fueling station.
+
+507
+00:29:16,416 --> 00:29:18,417
+Commander...
+
+508
+00:29:18,418 --> 00:29:22,219
+I worked a year in a
+trauma ward in Mogadishu.
+
+509
+00:29:23,389 --> 00:29:25,889
+Gear up.
+
+510
+00:29:33,765 --> 00:29:35,866
+Aah!
+
+511
+00:29:45,577 --> 00:29:47,477
+Aah!
+
+512
+00:29:55,820 --> 00:29:57,755
+Aah! Aah!
+
+513
+00:29:57,756 --> 00:29:59,924
+Stay with me, Cruz.
+
+514
+00:29:59,925 --> 00:30:01,759
+Just stay with me.
+
+515
+00:30:03,262 --> 00:30:04,962
+You get him stabilized,
+
+516
+00:30:04,963 --> 00:30:06,497
+you get the hell off the beach.
+
+517
+00:30:06,498 --> 00:30:07,965
+First whiff of hostilities,
+you are out of there.
+
+518
+00:30:07,966 --> 00:30:09,266
+You got it?
+
+519
+00:30:09,267 --> 00:30:11,417
+I read you loud and clear, Commander.
+
+520
+00:30:12,269 --> 00:30:14,271
+TAO, I want 5-inch and CIWS in surface mode
+
+521
+00:30:14,272 --> 00:30:15,706
+all focused on that beach.
+
+522
+00:30:15,707 --> 00:30:17,240
+Aye, sir.
+
+523
+00:30:17,241 --> 00:30:19,242
+- What have we got?
+- What're you doing here?!
+
+524
+00:30:19,243 --> 00:30:20,678
+- Where's the doc?!
+- He's up at the fueling tank.
+
+525
+00:30:20,679 --> 00:30:22,145
+Your Chief Engineer was injured, as well.
+
+526
+00:30:22,146 --> 00:30:23,113
+Lay him down.
+
+527
+00:30:23,114 --> 00:30:25,715
+Get him down.
+
+528
+00:30:26,750 --> 00:30:27,917
+Here you go.
+
+529
+00:30:27,918 --> 00:30:29,519
+- You, hold that.
+- Set up a perimeter.
+
+530
+00:30:29,520 --> 00:30:30,487
+All right.
+
+531
+00:30:30,488 --> 00:30:32,388
+Yes, sir.
+
+532
+00:30:35,125 --> 00:30:36,426
+Come on.
+
+533
+00:30:37,995 --> 00:30:39,629
+He's gonna bleed out. Just wait!
+
+534
+00:30:39,630 --> 00:30:41,530
+- Somebody get the doc!
+- Don't have time to wait!
+
+535
+00:30:41,531 --> 00:30:44,033
+There's nothing a medic can
+do for this man that we cannot,
+
+536
+00:30:44,034 --> 00:30:45,434
+so if you want to help your friend,
+
+537
+00:30:45,435 --> 00:30:48,669
+just hold him still and listen
+to every word that I say.
+
+538
+00:30:49,572 --> 00:30:51,540
+Hey, come on. Stay with me. Look at me.
+
+539
+00:30:51,541 --> 00:30:53,408
+Stay with me. You're gonna be all right.
+
+540
+00:30:57,347 --> 00:30:59,715
+Let's go! Come on! Blood
+pressure's dropping!
+
+541
+00:31:01,918 --> 00:31:03,451
+Hold that!
+
+542
+00:31:05,154 --> 00:31:06,388
+Going back in.
+
+543
+00:31:06,389 --> 00:31:08,090
+Okay.
+
+544
+00:31:08,091 --> 00:31:09,525
+Hey. Come on. Stay with me. Look at me.
+
+545
+00:31:09,526 --> 00:31:12,595
+Stay with me.
+
+546
+00:31:12,596 --> 00:31:17,031
+If you do not close this artery, he's dead.
+
+547
+00:31:18,500 --> 00:31:20,734
+Got it!
+
+548
+00:31:27,876 --> 00:31:31,611
+He's stabilized.
+
+549
+00:31:46,927 --> 00:31:49,528
+Hey, Commodore.
+
+550
+00:31:53,167 --> 00:31:56,502
+Don't give them a damn thing.
+
+551
+00:32:16,074 --> 00:32:17,542
+This here is Amir.
+
+552
+00:32:17,543 --> 00:32:20,578
+He's a big fan of IEDs and
+mutilating American soldiers.
+
+553
+00:32:20,579 --> 00:32:24,182
+Amir, my name's Tom Chandler, US Navy.
+
+554
+00:32:24,183 --> 00:32:26,284
+You don't want to do this.
+
+555
+00:32:26,285 --> 00:32:29,453
+Tex is the man who let
+you go from your cells.
+
+556
+00:32:29,454 --> 00:32:30,854
+He is no different from the others.
+
+557
+00:32:30,855 --> 00:32:33,055
+Hey, feeling's mutual, you dirty...
+
+558
+00:32:33,261 --> 00:32:36,460
+Vulture Team, Nathan James...
+I need a status update.
+
+559
+00:32:39,530 --> 00:32:41,499
+Vulture Team, Nathan
+James... What is your status?
+
+560
+00:32:41,500 --> 00:32:43,006
+Nathan James, Walter 1...
+
+561
+00:32:43,007 --> 00:32:44,589
+We're at the food warehouse.
+
+562
+00:32:45,002 --> 00:32:48,338
+Just, uh... trying to deal
+with a little hostage situation
+
+563
+00:32:48,339 --> 00:32:49,726
+- over here.
+- Who are you talking to?!
+
+564
+00:32:49,727 --> 00:32:51,842
+I'm answering my ship's call.
+
+565
+00:32:51,843 --> 00:32:55,913
+Otherwise, they'll panic,
+start shelling the whole place.
+
+566
+00:32:55,914 --> 00:32:57,114
+He wants a diversion.
+
+567
+00:32:57,115 --> 00:32:58,348
+That's all we're doing is talking.
+
+568
+00:32:58,349 --> 00:33:00,283
+Let's not get anybody else killed here.
+
+569
+00:33:00,284 --> 00:33:02,319
+No more talking to them! You talk to me!
+
+570
+00:33:02,320 --> 00:33:04,487
+Prepare the 5-inch.
+Focus fire on Building 35.
+
+571
+00:33:04,488 --> 00:33:06,323
+Stand by for exact coordinates.
+
+572
+00:33:06,324 --> 00:33:08,225
+Nishioka, eyes on.
+
+573
+00:33:10,382 --> 00:33:12,462
+You will leave all food on
+this side of the building.
+
+574
+00:33:12,463 --> 00:33:14,163
+Ain't enough of you bastards left
+
+575
+00:33:14,164 --> 00:33:16,233
+to eat that much in 10 lifetimes.
+
+576
+00:33:16,234 --> 00:33:18,000
+Look.
+
+577
+00:33:18,001 --> 00:33:20,569
+Amir, it's a new world now.
+
+578
+00:33:20,570 --> 00:33:23,706
+There's no good guys and bad guys.
+
+579
+00:33:23,707 --> 00:33:25,407
+Doesn't matter which side
+we thought we were on.
+
+580
+00:33:25,408 --> 00:33:27,576
+We're all just trying to survive.
+
+581
+00:33:27,577 --> 00:33:30,813
+We don't want to hurt you any
+more than you want to hurt us,
+
+582
+00:33:30,814 --> 00:33:33,716
+but you know I'm not leaving
+here without my man, so...
+
+583
+00:33:33,717 --> 00:33:37,152
+- When you let Tex go...
+- If I let him go!
+
+584
+00:33:37,153 --> 00:33:42,391
+When you let him go, we'll be on our way.
+
+585
+00:33:42,392 --> 00:33:44,593
+I'll decide how much
+food we leave you with.
+
+586
+00:33:44,594 --> 00:33:47,696
+No! Enough of this!
+
+587
+00:33:47,697 --> 00:33:49,765
+Listen to me, Amir.
+
+588
+00:33:49,766 --> 00:33:53,735
+You want the entire southwest
+corner of the warehouse.
+
+589
+00:33:53,736 --> 00:33:55,436
+Focus fire at Building
+35, southwest corner.
+
+590
+00:33:55,437 --> 00:33:59,207
+That's almost half the
+food in the entire place.
+
+591
+00:33:59,208 --> 00:34:01,109
+Is that gonna make you happy?
+
+592
+00:34:01,110 --> 00:34:03,278
+No! You will leave all the food
+
+593
+00:34:03,279 --> 00:34:05,580
+on this side of the building or he dies!
+
+594
+00:34:05,581 --> 00:34:09,116
+Well, now, see, we got a
+bit of a problem with that.
+
+595
+00:34:09,117 --> 00:34:10,485
+Because there's one thing
+
+596
+00:34:10,486 --> 00:34:13,020
+from the old world that
+still applies today,
+
+597
+00:34:13,021 --> 00:34:16,121
+something that will never change.
+
+598
+00:34:22,329 --> 00:34:23,897
+Target acquired.
+
+599
+00:34:23,898 --> 00:34:25,263
+Fire!
+
+600
+00:34:25,499 --> 00:34:28,901
+We don't negotiate with terrorists.
+
+601
+00:34:45,852 --> 00:34:47,586
+Clear!
+
+602
+00:34:48,789 --> 00:34:50,155
+Nice.
+
+603
+00:34:50,156 --> 00:34:51,123
+Yes.
+
+604
+00:34:51,124 --> 00:34:52,991
+Good work, good work.
+
+605
+00:35:16,615 --> 00:35:20,484
+I don't know how you
+feel about the water...
+
+606
+00:35:20,485 --> 00:35:23,621
+but we sure could use your services.
+
+607
+00:35:23,622 --> 00:35:25,189
+Where you headed?
+
+608
+00:35:25,190 --> 00:35:26,624
+We got some things to do,
+
+609
+00:35:26,625 --> 00:35:29,026
+but when we're done, we're going home.
+
+610
+00:35:29,027 --> 00:35:33,129
+Yeah, I'll sign up for that.
+
+611
+00:35:34,999 --> 00:35:39,670
+Nathan James, Vulture 1...
+Hostage situation resolved.
+
+612
+00:35:39,671 --> 00:35:41,639
+Thank you for the close shave.
+
+613
+00:35:41,640 --> 00:35:44,807
+We are inbound.
+
+614
+00:35:50,590 --> 00:35:51,831
+Now go to your stations,
+
+615
+00:35:51,832 --> 00:35:53,866
+all Special Sea and Anchor Detail.
+
+616
+00:35:53,867 --> 00:35:55,935
+Nathan James will get underway at 1700.
+
+617
+00:35:55,936 --> 00:35:58,904
+All departments make manned
+and ready special reports
+
+618
+00:35:58,905 --> 00:36:00,738
+to the XO on the bridge.
+
+619
+00:36:04,376 --> 00:36:07,579
+Captain's on the bridge.
+
+620
+00:36:07,580 --> 00:36:09,248
+Hey.
+
+621
+00:36:10,397 --> 00:36:12,117
+We're loading up the
+RHIBs and the SDV subs.
+
+622
+00:36:12,118 --> 00:36:13,652
+Trucks are bringing over all the food.
+
+623
+00:36:13,653 --> 00:36:15,554
+Suppo thinks it's gonna
+last us five, six weeks.
+
+624
+00:36:15,555 --> 00:36:16,655
+And fuel?
+
+625
+00:36:16,656 --> 00:36:20,792
+We lost suction on the tank at 96%.
+
+626
+00:36:20,793 --> 00:36:22,994
+Oh, and Chief Engineer took some Shrapnel.
+
+627
+00:36:22,995 --> 00:36:24,363
+She's gonna be okay, though.
+
+628
+00:36:24,364 --> 00:36:25,730
+Tough as nails, that one.
+
+629
+00:36:25,731 --> 00:36:27,766
+Well, push comes to shove, they all are.
+
+630
+00:36:27,767 --> 00:36:30,150
+Gentlemen, apparently, one
+of the machines in the lab
+
+631
+00:36:30,151 --> 00:36:31,418
+somehow got tipped over.
+
+632
+00:36:31,419 --> 00:36:33,643
+Dr. Tophet is insisting
+he needs time to secure
+
+633
+00:36:33,644 --> 00:36:35,956
+and recalibrate the machines
+before we move the ship.
+
+634
+00:36:35,957 --> 00:36:36,823
+How long?
+
+635
+00:36:36,824 --> 00:36:38,924
+He says three to four hours.
+
+636
+00:36:40,427 --> 00:36:41,628
+Where's Dr. Scott?
+
+637
+00:36:41,629 --> 00:36:45,130
+Still in medical.
+
+638
+00:36:46,399 --> 00:36:49,502
+Was a tough call.
+
+639
+00:36:49,503 --> 00:36:51,571
+We did good today.
+
+640
+00:36:51,572 --> 00:36:55,041
+Captain, I'm picking up a
+contact headed for the harbor.
+
+641
+00:36:55,042 --> 00:36:56,640
+Negative electronic signature.
+
+642
+00:36:56,641 --> 00:36:58,256
+They're not operating their radar.
+
+643
+00:36:58,257 --> 00:36:59,592
+Cannot make a positive ID.
+
+644
+00:36:59,593 --> 00:37:03,562
+Vessel 21 miles southeast, Guantanamo Bay,
+
+645
+00:37:03,563 --> 00:37:08,033
+this is US Navy Warship 151
+hailing you on channel 16.
+
+646
+00:37:08,034 --> 00:37:10,235
+Identify yourself, over.
+
+647
+00:37:10,236 --> 00:37:13,505
+This is British Naval Vessel
+
+648
+00:37:13,506 --> 00:37:14,739
+HMS Suffolk...
+
+649
+00:37:14,740 --> 00:37:16,441
+Confirm that.
+
+650
+00:37:16,442 --> 00:37:18,743
+...hull number 525, IMO call
+sign Whiskey Echo Bravo 236.
+
+651
+00:37:18,744 --> 00:37:22,814
+None of us have been infected,
+but we're running low on food.
+
+652
+00:37:22,815 --> 00:37:24,549
+We've been searching for weeks
+
+653
+00:37:24,550 --> 00:37:26,084
+for a place to replenish
+and repair our radar.
+
+654
+00:37:26,085 --> 00:37:27,618
+Confirmed, sir.
+
+655
+00:37:33,190 --> 00:37:36,027
+This is Commander Tom Chandler,
+
+656
+00:37:36,028 --> 00:37:39,396
+Commanding Officer, USS Nathan James.
+
+657
+00:37:39,397 --> 00:37:40,932
+We welcome you to Guantanamo Bay,
+
+658
+00:37:40,933 --> 00:37:43,567
+although we wish you would've
+been here a few hours ago.
+
+659
+00:37:43,568 --> 00:37:45,302
+We could've used the help.
+
+660
+00:37:45,303 --> 00:37:48,060
+I assure you that next time,
+we will be there for you,
+
+661
+00:37:48,061 --> 00:37:50,195
+should you choose to accept an association.
+
+662
+00:37:50,196 --> 00:37:52,431
+Well, we'll put some pot pies in the oven
+
+663
+00:37:52,432 --> 00:37:54,166
+and some fish and chips in the fryer.
+
+664
+00:37:54,167 --> 00:37:56,669
+Come on in.
+
+665
+00:37:56,670 --> 00:37:59,739
+We can't go anywhere till the lab's fixed.
+
+666
+00:37:59,740 --> 00:38:01,652
+Let's prepare to greet our new friends.
+
+667
+00:38:01,653 --> 00:38:04,742
+XO has the lead.
+
+668
+00:38:05,277 --> 00:38:07,179
+Ow.
+
+669
+00:38:07,180 --> 00:38:08,613
+Oh, that stings.
+
+670
+00:38:08,614 --> 00:38:10,578
+It's supposed to sting. I'm cleaning it.
+
+671
+00:38:10,579 --> 00:38:13,385
+- I don't need it cleaned.
+- Yes, you do.
+
+672
+00:38:13,386 --> 00:38:15,887
+This is gonna sting a little.
+
+673
+00:38:15,888 --> 00:38:18,357
+Ow.
+
+674
+00:38:18,358 --> 00:38:19,658
+How you doing, Eng?
+
+675
+00:38:19,659 --> 00:38:20,493
+All right, sir.
+
+676
+00:38:20,494 --> 00:38:22,493
+Doc says I'll be on my feet soon enough.
+
+677
+00:38:22,494 --> 00:38:26,864
+No rush. We got it all under control.
+
+678
+00:38:30,702 --> 00:38:32,302
+She saved him.
+
+679
+00:38:36,107 --> 00:38:37,708
+She's gonna save us all.
+
+680
+00:38:37,709 --> 00:38:39,143
+Right, Dr. Scott?
+
+681
+00:38:39,144 --> 00:38:42,513
+Well, hopefully, we'll save each other.
+
+682
+00:38:42,514 --> 00:38:44,648
+Real soulful, this one.
+
+683
+00:38:44,649 --> 00:38:47,751
+You never mind them good
+looks, that brassy exterior.
+
+684
+00:38:47,752 --> 00:38:49,952
+Word?
+
+685
+00:38:56,894 --> 00:38:59,797
+I know... Don't do it again.
+
+686
+00:38:59,798 --> 00:39:02,731
+You don't have anything to prove...
+
+687
+00:39:03,801 --> 00:39:07,270
+if that's what it was about.
+
+688
+00:39:08,462 --> 00:39:11,176
+And don't do it again.
+
+689
+00:39:15,011 --> 00:39:17,247
+Hey! Nursey!
+
+690
+00:39:17,248 --> 00:39:21,016
+I need a cold compress here.
+
+691
+00:39:36,232 --> 00:39:39,200
+Spoils of war.
+
+692
+00:40:10,331 --> 00:40:16,504
+You know, I should be getting
+this stuff ready for his family.
+
+693
+00:40:16,505 --> 00:40:20,941
+But, uh...
+
+694
+00:40:23,477 --> 00:40:26,345
+there's nobody even to give it to.
+
+695
+00:40:35,155 --> 00:40:38,091
+Captain's on the bridge.
+
+696
+00:40:38,092 --> 00:40:39,925
+They in sight?
+
+697
+00:40:39,926 --> 00:40:41,227
+Yeah.
+
+698
+00:40:41,228 --> 00:40:44,963
+I hear they serve Guinness on board.
+
+699
+00:40:44,964 --> 00:40:49,435
+Sir, E-Dub can't confirm
+the signature on that vessel,
+
+700
+00:40:49,436 --> 00:40:52,737
+but they don't think it's British.
+
+701
+00:40:54,973 --> 00:40:57,076
+It's the Russians.
+
+702
+00:40:57,077 --> 00:40:58,744
+Set general quarters now!
+
+703
+00:40:58,745 --> 00:41:00,412
+General quarters! General quarters!
+
+704
+00:41:00,413 --> 00:41:02,280
+All hands, man your battle stations!
+
+705
+00:41:02,281 --> 00:41:05,217
+Bridge, TAO...
+
+706
+00:41:05,218 --> 00:41:08,020
+SCUNK Alpha just energized
+fire control radar.
+
+707
+00:41:08,021 --> 00:41:09,487
+We're in their cross hairs.
+
+708
+00:41:09,488 --> 00:41:11,590
+Captain Tom Chandler?
+
+709
+00:41:11,591 --> 00:41:12,931
+This is Commander Chandler.
+
+710
+00:41:12,932 --> 00:41:15,727
+Identify yourself immediately.
+
+711
+00:41:15,728 --> 00:41:19,564
+I am sorry to have made
+such a rude introduction,
+
+712
+00:41:19,565 --> 00:41:24,668
+but I believe you have
+something that I want.
+
+713
+00:41:29,821 --> 00:41:32,381
+Sync and corrections by n17t01
+Web-dl by awaqeded
+www.addic7ed.com
+
