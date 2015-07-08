@@ -9,7 +9,7 @@
                             <a <? if($next_ep) { ?>href="/<?=$ep['permalink']?>/<?php foreach ($next_ep as $val): ?>sezon-<?=$val['season']?>/bolum-<?=$val['episode']?><?php endforeach ?>"<? }else{ ?>style="opacity: .4" <?}?>>Sonraki Bölüm</a>
                         </div>
                         <div class="mini-info">
-                            <img data-load-image="<?=base_url();?>/upload/series/<?=$ep['permalink']?>_thumb.png?v=5.5" src="<?=$_SERVER["REQUEST_URI"] = "/template/assets/images/transparent.png";?>" alt="">
+                            <img data-load-image="<?=thumb($ep['permalink']);?>" src="<?=img_loader()?>" alt="">
                             <span class="title"><a href="/<?=$ep['permalink']?>" target="_blank"><span><?=$ep['title']?></span></a> -&nbsp;<?=$ep['season']?>. sezon <?=$ep['episode']?>. bölüm</span>
                             <span class="episode-name"><? if($ep['description'] == ''){echo 'Episode #'.$ep['season'].'.'.$ep['episode'];}{echo $ep['description'];}?></span>
                         </div>
@@ -62,7 +62,7 @@
                         <a class="like-btn dislike" href="javascript:void(0)" onclick="series_dislike(<?=$ep['id']?>)"><span class="fa fa-thumbs-down"></span></a>
                     </div>
                     <div class="clear"></div>
-                    <a class="go-tv-series-profile" href="/<?=$ep['permalink']?>"><img data-load-image="/upload/series/<?=$ep['permalink']?>_thumb.png?v=5.5" src="/template/assets/images/transparent.png" alt=""><span><?=$ep['title']?></span>Dizinin profil sayfasına git.</a> 
+                    <a class="go-tv-series-profile" href="/<?=$ep['permalink']?>"><img data-load-image="<?=thumb($ep['permalink']);?>" src="<?=img_loader()?>" alt=""><span><?=$ep['title']?></span>Dizinin profil sayfasına git.</a> 
                     <div class="last-forum-topics">
                         <div style="padding: 10px; font-size: 12px; color: #999; border-bottom: 1px solid rgba(255,255,255,.1); line-height: 18px">Bu dizi için hiç forum konusu bulunmuyor.<br>Sen bir tane <a style="color: #c1ac87; text-decoration: underline" href="#">oluştur!</a></div>
                         <a class="topic-more" href="#"><span>Forumdan diğer başlıklar</span>0 başlık, 0 mesaj</a>
@@ -188,7 +188,7 @@
                                         <div class="add-subcomment" id="open_add_subcomment_<?=$val['id']?>">
                                             <div class="loader-ajax"></div>
                                             <div class="formm">
-                                                <img src="<?=avatar($me['user_id'])?>" alt=""/>
+                                                <img src="<?=avatar($val['user_id'])?>" alt=""/>
                                                 <div class="inner">
                                                     <form id="subcomment_<?=$val['id']?>" action="" onsubmit="return false;">
                                                         <input type="hidden" name="user_id" />
@@ -274,9 +274,9 @@
                 <meta itemprop="description" content="Game of Thrones 5. sezon 1. bölümü yüksek kalitede izlemeniz için hazır!" />
                 <meta itemprop="duration" content="PT55M0S" />
                 <link itemprop="url" href="/dizi//sezon-/bolum-">
-                <link itemprop="thumbnailUrl" href="<?php echo '/upload/series/'; ?>_cover.png?v=5.5">
+                <link itemprop="thumbnailUrl" href="<?=cover($ep['permalink']);?>">
                 <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-                    <link itemprop="url" href="<?php echo '/upload/series'; ?>_cover.png?v=5.5">
+                    <link itemprop="url" href="<?=cover($ep['permalink']);?>">
                 </span>
                 <meta itemprop="contentURL" content="" />
                 <meta itemprop="embedURL" content="" />
@@ -327,7 +327,7 @@ function load_video(){
             fontSize: 25,
             edgeStyle: 'uniform'
         },
-        image: '<?=base_url();?>/upload/series/<?=$ep['permalink']?>_cover.png?v=5.5',
+        image: '<?=cover($ep['permalink']);?>',
         <?// foreach($thisepisode['embeds'] as $id => $ep){echo $ep['embed'];}?>
         <?=$ep['embed']?>
     });

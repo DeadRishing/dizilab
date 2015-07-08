@@ -50,7 +50,7 @@
                             <ul>
                                 <?php foreach($follow_series as $val): ?>
                                 <li>
-                                    <a href="/<?=$val['permalink']?>" title="<?=$val['title']?>"><img data-load-image="/upload/series/<?=$val['permalink']?>_thumb.png?v=5.7" src="<?=$_SERVER["REQUEST_URI"] = "/template/assets/images/transparent.png";?>" alt="" width="55" height="55"></a>
+                                    <a href="/<?=$val['permalink']?>" title="<?=$val['title']?>"><img data-load-image="<?=thumb($val['permalink'])?>" src="<?=img_loader()?>" alt="" width="55" height="55"></a>
                                 </li>
                                 <?php endforeach ?>
                             </ul>

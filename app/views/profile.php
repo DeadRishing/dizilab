@@ -105,7 +105,7 @@
                                 <?php $i=0;
                             foreach ($popular_series as $row): 
                                 $i++;?>
-                                <li><a href="/<?php echo $row['permalink'] ?>"><span class="points">puan: <span><?=$row['imdb_rating']?></span></span><span class="info"><img src="/upload/series/<?php echo $row['permalink'] ?>_thumb.png?v=5.5" alt=""><span class="title"><?php echo $row['title'] ?></span><span class="category">
+                                <li><a href="/<?php echo $row['permalink'] ?>"><span class="points">puan: <span><?=$row['imdb_rating']?></span></span><span class="info"><img src="<?=thumb($row['permalink'])?>" alt=""><span class="title"><?php echo $row['title'] ?></span><span class="category">
                                     <span class="category">
                                         <?php if(!empty($row['tags'])):?>
                                         <?php 

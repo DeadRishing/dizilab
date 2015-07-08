@@ -53,7 +53,7 @@
                 			$i++;
                 			?>
                 		<div class="tv-series-single">
-                			<a href="<?=base_url();?><?=$val['permalink'];?>" class="film-image"><img data-load-image="<?=base_url();?>/upload/series/<?=$val['permalink'];?>_cover.png?v=5.5" src="<?=$_SERVER["REQUEST_URI"] = "/template/assets/images/transparent.png";?>" alt=""></a>
+                			<a href="<?=base_url();?><?=$val['permalink'];?>" class="film-image"><img data-load-image="<?=cover($val['permalink']);?>" src="<?=img_loader()?>" alt=""></a>
                 			<div class="tss-detail">
                 				<a class="title" style="<?php if($i > 9) { ?>padding-left: 45px;<? } ?>" href="<?=base_url();?><?=$val['permalink'];?>"><span class="position"><?=$i;?></span><?=$val['title'];?></a>
                 				<span class="rank">

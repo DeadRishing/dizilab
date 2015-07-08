@@ -23,6 +23,7 @@
       </div>
 </div>
 </div>
+<?=base_url();?>
 <script>var url = "<?=base_url();?>", request_url = url + 'request/php/', VERSION = 5.7;</script>
 <script src="<?=base_url('compress_js?v=5.7');?>"></script>
 <script src="<?=assets_url('plugins/jquery.modal/jquery.modal.min.js?v=5.7');?>"></script>
