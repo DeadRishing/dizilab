@@ -1,7 +1,7 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : localhost_3306
+Source Server         : localhost
 Source Server Version : 50051
 Source Host           : localhost:3306
 Source Database       : test
@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50051
 File Encoding         : 65001
 
-Date: 2015-07-05 01:58:30
+Date: 2015-07-08 07:45:11
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -191,7 +191,7 @@ INSERT INTO `bolumler` VALUES ('6', '9', '1', '1', 'Pilot', 'sources: [{file: \"
 INSERT INTO `bolumler` VALUES ('7', '9', '1', '2', 'Brother, Can You Spare a Brain?', 'sources: [{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m18\",label: \"360p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m22\",label: \"720p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m37\",label: \"1080p\",type: \"mp4\"}]', '1', '2015-05-25 23:02:30', '7', '0', '11', '0');
 INSERT INTO `bolumler` VALUES ('8', '9', '1', '3', 'The Exterminator', 'sources: [{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m18\",label: \"360p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m22\",label: \"720p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m37\",label: \"1080p\",type: \"mp4\"}]', '1', '2015-06-04 23:02:53', '2', '0', '7', '0');
 INSERT INTO `bolumler` VALUES ('9', '9', '1', '4', 'Liv and Let Clive', 'sources: [{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m18\",label: \"360p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m22\",label: \"720p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m37\",label: \"1080p\",type: \"mp4\"}]', '1', '2015-06-06 23:02:53', '95', '0', '7', '0');
-INSERT INTO `bolumler` VALUES ('10', '9', '1', '5', 'Flight of the Living Dead', 'sources: [{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m18\",label: \"360p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m22\",label: \"720p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m37\",label: \"1080p\",type: \"mp4\"}]', '1', '2015-07-10 11:08:42', '2', '0', '35', '1');
+INSERT INTO `bolumler` VALUES ('10', '9', '1', '5', 'Flight of the Living Dead', 'sources: [{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m18\",label: \"360p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m22\",label: \"720p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m37\",label: \"1080p\",type: \"mp4\"}]', '1', '2015-07-10 11:08:42', '2', '0', '37', '1');
 INSERT INTO `bolumler` VALUES ('11', '10', '1', '1', 'Phase Six', 'sources: [{file: \"https://redirector.googlevideo.com/videoplayback?requiressl=yes&shardbypass=yes&cmbypass=yes&id=355af17f9f812446&itag=18&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1433251096&sparams=requiressl,shardbypass,cmbypass,id,itag,source,ip,ipbits,expire&signature=84F7087078078F7C77952C9EFF09B837EC4A89DE.7ADEFD6CB202B2573656AE8EE3B17C6EBFE46F16&key=ck2\",label: \"360p\",type: \"mp4\"},{file: \"https://redirector.googlevideo.com/videoplayback?requiressl=yes&shardbypass=yes&cmbypass=yes&id=355af17f9f812446&itag=22&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1433251096&sparams=requiressl,shardbypass,cmbypass,id,itag,source,ip,ipbits,expire&signature=428287501910D891E9B7E4C467E5699DAD2EC0C1.8F53BADB90D95759575B4A74198A48026C13B63&key=ck2\",label: \"720p\",type: \"mp4\"},{file: \"https://redirector.googlevideo.com/videoplayback?requiressl=yes&shardbypass=yes&cmbypass=yes&id=355af17f9f812446&itag=37&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1433251096&sparams=requiressl,shardbypass,cmbypass,id,itag,source,ip,ipbits,expire&signature=6B717D3379A45E3256C050325938A12D14190594.9007DF5A8507F25D6ABB7D66AE340DD57A47DBAB&key=ck2\",label: \"1080p\",type: \"mp4\"}]', '1', '2015-04-16 23:27:05', '3', '0', '16', '1');
 INSERT INTO `bolumler` VALUES ('12', '10', '1', '2', 'Welcome to Gitmo', 'sources: [{file: \"https://redirector.googlevideo.com/videoplayback?requiressl=yes&shardbypass=yes&cmbypass=yes&id=6851a850e933e961&itag=18&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1433251116&sparams=requiressl,shardbypass,cmbypass,id,itag,source,ip,ipbits,expire&signature=86883ADACBB4A71B57648E262330D90C18FE2247.1E06047552C68E8CF96E59BB519930F7DB289A7C&key=ck2\",label: \"360p\",type: \"mp4\"},{file: \"https://redirector.googlevideo.com/videoplayback?requiressl=yes&shardbypass=yes&cmbypass=yes&id=6851a850e933e961&itag=22&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1433251116&sparams=requiressl,shardbypass,cmbypass,id,itag,source,ip,ipbits,expire&signature=5AE5F8E2A324EBD66759A07ACB558DFE6220774F.97AA3B0DDCF4D70B0FFEC0ED3DB75D3DB3D61ED&key=ck2\",label: \"720p\",type: \"mp4\"},{file: \"https://redirector.googlevideo.com/videoplayback?requiressl=yes&shardbypass=yes&cmbypass=yes&id=6851a850e933e961&itag=37&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1433251116&sparams=requiressl,shardbypass,cmbypass,id,itag,source,ip,ipbits,expire&signature=765A87FA16BD4787AE35FB78DE2A11CE2EBA5ABA.9F006BACF24EDF7A0CCD9FBF4DE0BD9EC3CEABC7&key=ck2\",label: \"1080p\",type: \"mp4\"}]', '1', '2015-02-05 23:27:44', '1', '2', '5', '1');
 INSERT INTO `bolumler` VALUES ('13', '10', '1', '3', 'Dead Reckoning', 'sources: [{file: \"https://redirector.googlevideo.com/videoplayback?requiressl=yes&shardbypass=yes&cmbypass=yes&id=3aa195c4ccd33f42&itag=18&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1433251136&sparams=requiressl,shardbypass,cmbypass,id,itag,source,ip,ipbits,expire&signature=56F93B84DC269E4B939555266070F77F7DD3504F.AEA630C809D1E5EED75877AE1EAE4E185F0345F5&key=ck2\",label: \"360p\",type: \"mp4\"},{file: \"https://redirector.googlevideo.com/videoplayback?requiressl=yes&shardbypass=yes&cmbypass=yes&id=3aa195c4ccd33f42&itag=22&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1433251136&sparams=requiressl,shardbypass,cmbypass,id,itag,source,ip,ipbits,expire&signature=9834DED31309B0152C64EB1A7A8DAE98085B6787.51244225F13C64FBE09DBDE56CA879032BBAE5E5&key=ck2\",label: \"720p\",type: \"mp4\"},{file: \"https://redirector.googlevideo.com/videoplayback?requiressl=yes&shardbypass=yes&cmbypass=yes&id=3aa195c4ccd33f42&itag=37&source=webdrive&cmo=secure_transport%3Dyes&ip=0.0.0.0&ipbits=0&expire=1433251136&sparams=requiressl,shardbypass,cmbypass,id,itag,source,ip,ipbits,expire&signature=759D4223F973A84CB3DA430303E515504F30C154.9631E9A72C1B67CDCF01A5214E77B65FB744B030&key=ck2\",label: \"1080p\",type: \"mp4\"}]', '1', '2015-04-17 23:27:52', '0', '0', '3', '0');
@@ -278,7 +278,7 @@ INSERT INTO `bolumler` VALUES ('93', '1', '3', '7', '', 'sources: [{file: \"http
 INSERT INTO `bolumler` VALUES ('94', '1', '3', '8', '', 'sources: [{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m18\",label: \"360p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m22\",label: \"720p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m37\",label: \"1080p\",type: \"mp4\"}]', '', '2015-04-18 13:40:07', '1', '0', '1', '0');
 INSERT INTO `bolumler` VALUES ('95', '1', '3', '9', '', 'sources: [{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m18\",label: \"360p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m22\",label: \"720p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m37\",label: \"1080p\",type: \"mp4\"}]', '', '2015-04-18 13:40:12', '1', '0', '1', '0');
 INSERT INTO `bolumler` VALUES ('96', '1', '3', '10', '', 'sources: [{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m18\",label: \"360p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m22\",label: \"720p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m37\",label: \"1080p\",type: \"mp4\"}]', '', '2015-04-18 13:40:16', '1', '0', '2', '0');
-INSERT INTO `bolumler` VALUES ('97', '1', '3', '11', '', 'sources: [{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m18\",label: \"360p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m22\",label: \"720p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m37\",label: \"1080p\",type: \"mp4\"}]', '', '2015-04-18 13:40:20', '1', '1', '3', '0');
+INSERT INTO `bolumler` VALUES ('97', '1', '3', '11', '', 'sources: [{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m18\",label: \"360p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m22\",label: \"720p\",type: \"mp4\"},{file: \"https://lh3.googleusercontent.com/FaBQQiOEAHoeYv86TJHPR1ThJJMI_y03PfEQV9PYucdF=m37\",label: \"1080p\",type: \"mp4\"}]', '', '2015-04-18 13:40:20', '1', '1', '4', '0');
 INSERT INTO `bolumler` VALUES ('98', '1', '3', '12', '', '', '', '2015-04-18 13:40:24', '0', '0', '1', '0');
 INSERT INTO `bolumler` VALUES ('99', '1', '3', '13', '', '', '', '2015-04-18 13:40:27', '0', '0', '0', '0');
 INSERT INTO `bolumler` VALUES ('100', '1', '3', '14', '', '', '', '2015-04-18 13:40:31', '0', '0', '1', '0');
@@ -428,10 +428,10 @@ INSERT INTO `izlediklerim` VALUES ('182', '1', '87', '8', '2015-06-13 10:27:37')
 INSERT INTO `izlediklerim` VALUES ('183', '1', '88', '8', '2015-06-13 10:27:38');
 
 -- ----------------------------
--- Table structure for `subscriber`
+-- Table structure for `abonelikler`
 -- ----------------------------
-DROP TABLE IF EXISTS `subscriber`;
-CREATE TABLE `subscriber` (
+DROP TABLE IF EXISTS `abonelikler`;
+CREATE TABLE `abonelikler` (
   `id` int(11) NOT NULL auto_increment,
   `user_id` int(11) NOT NULL,
   `show_id` int(11) NOT NULL,
@@ -440,49 +440,10 @@ CREATE TABLE `subscriber` (
 ) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
--- Records of subscriber
+-- Records of abonelikler
 -- ----------------------------
-INSERT INTO `subscriber` VALUES ('1', '1', '1', '2015-05-04 03:58:33');
-INSERT INTO `subscriber` VALUES ('2', '43', '10', '2015-06-01 22:07:35');
-
--- ----------------------------
--- Table structure for `tags`
--- ----------------------------
-DROP TABLE IF EXISTS `tags`;
-CREATE TABLE `tags` (
-  `id` int(11) NOT NULL auto_increment,
-  `tag` varchar(150) NOT NULL,
-  `perma` varchar(100) character set utf8 collate utf8_hungarian_ci NOT NULL,
-  PRIMARY KEY  (`id`),
-  KEY `perma` (`perma`)
-) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of tags
--- ----------------------------
-INSERT INTO `tags` VALUES ('1', 'Aile', 'aile');
-INSERT INTO `tags` VALUES ('2', 'Aksiyon', 'aksiyon');
-INSERT INTO `tags` VALUES ('3', 'Animasyon', 'animasyon');
-INSERT INTO `tags` VALUES ('4', 'Belgesel', 'belgesel');
-INSERT INTO `tags` VALUES ('5', 'Bilim Kurgu', 'bilim-kurgu');
-INSERT INTO `tags` VALUES ('6', 'Biyografi', 'biyografi');
-INSERT INTO `tags` VALUES ('7', 'Dram', 'dram');
-INSERT INTO `tags` VALUES ('8', 'Fantastik', 'fantastik');
-INSERT INTO `tags` VALUES ('9', 'Gençlik', 'genclik');
-INSERT INTO `tags` VALUES ('10', 'Gerilim', 'gerilim');
-INSERT INTO `tags` VALUES ('11', 'Gizem', 'gizem');
-INSERT INTO `tags` VALUES ('12', 'Komedi', 'komedi');
-INSERT INTO `tags` VALUES ('13', 'Korku', 'korku');
-INSERT INTO `tags` VALUES ('14', 'Macera', 'macera');
-INSERT INTO `tags` VALUES ('15', 'Mini Dizi', 'mini-dizi');
-INSERT INTO `tags` VALUES ('16', 'Müzikal', 'muzikal');
-INSERT INTO `tags` VALUES ('17', 'Polisiye', 'polisiye');
-INSERT INTO `tags` VALUES ('18', 'Romantik', 'romantik');
-INSERT INTO `tags` VALUES ('19', 'Savaş', 'savas');
-INSERT INTO `tags` VALUES ('20', 'Spor', 'spor');
-INSERT INTO `tags` VALUES ('21', 'Suç', 'suc');
-INSERT INTO `tags` VALUES ('22', 'Tarih', 'tarih');
-INSERT INTO `tags` VALUES ('23', 'Western', 'western');
+INSERT INTO `abonelikler` VALUES ('1', '1', '1', '2015-05-04 03:58:33');
+INSERT INTO `abonelikler` VALUES ('2', '43', '10', '2015-06-01 22:07:35');
 
 -- ----------------------------
 -- Table structure for `uyeler`
@@ -524,7 +485,7 @@ CREATE TABLE `yaptiklarim` (
   `id` int(11) NOT NULL auto_increment,
   `user_id` varchar(255) NOT NULL default '0',
   `target_id` int(11) NOT NULL,
-  `type` int(1) NOT NULL default '1' COMMENT '',
+  `type` int(1) NOT NULL default '1',
   `wall` int(11) NOT NULL,
   `date` datetime NOT NULL,
   PRIMARY KEY  (`id`)
