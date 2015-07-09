@@ -144,9 +144,29 @@
                     <h2> yeni diziler mi keşfetmek istiyorsun? </h2>
                     <p> günden güne yenilenen dizi arşivimize göz atabilir, yeni diziler keşfedebilirsin. </p>
                     <div class="tags">
-                        <?php foreach ($categories as $row): ?>
-                        <a href="/arsiv/<?=$row['perma']?>"><?=$row['tag']?></a>
-                        <?php endforeach ?>
+                        <a href="/arsiv/aile">Aile</a>
+                                                <a href="/arsiv/aksiyon">Aksiyon</a>
+                                                <a href="/arsiv/animasyon">Animasyon</a>
+                                                <a href="/arsiv/belgesel">Belgesel</a>
+                                                <a href="/arsiv/bilim-kurgu">Bilim Kurgu</a>
+                                                <a href="/arsiv/biyografi">Biyografi</a>
+                                                <a href="/arsiv/dram">Dram</a>
+                                                <a href="/arsiv/fantastik">Fantastik</a>
+                                                <a href="/arsiv/genclik">Gençlik</a>
+                                                <a href="/arsiv/gerilim">Gerilim</a>
+                                                <a href="/arsiv/gizem">Gizem</a>
+                                                <a href="/arsiv/komedi">Komedi</a>
+                                                <a href="/arsiv/korku">Korku</a>
+                                                <a href="/arsiv/macera">Macera</a>
+                                                <a href="/arsiv/mini-dizi">Mini Dizi</a>
+                                                <a href="/arsiv/muzikal">Müzikal</a>
+                                                <a href="/arsiv/polisiye">Polisiye</a>
+                                                <a href="/arsiv/romantik">Romantik</a>
+                                                <a href="/arsiv/savas">Savaş</a>
+                                                <a href="/arsiv/spor">Spor</a>
+                                                <a href="/arsiv/suc">Suç</a>
+                                                <a href="/arsiv/tarih">Tarih</a>
+                                                <a href="/arsiv/western">Western</a>
                     </div>
                 </div>
             </div>

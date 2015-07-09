@@ -104,14 +104,6 @@ class Show_model extends CI_Model
 				 ->get();
     	return $query->result_array();
 	}
-	public function get_Categories()
-	{
-    	$query = $this->db->select('*')
-				 ->from('tags')
-				 ->order_by('tag','ASC')
-				 ->get('');
-    	return $query->result_array();
-	}
 
 	function sezon_sayisi($show_id)
 	{
@@ -130,7 +122,7 @@ class Show_model extends CI_Model
 
 	function takipcileri($show_id)
 	{
-		return $this->db->where('show_id',$show_id)->get('subscriber')->num_rows();
+		return $this->db->where('show_id',$show_id)->get('abonelikler')->num_rows();
 	}
 	//enler
 	function en_son_bolum($show_id)
@@ -238,7 +230,7 @@ class Show_model extends CI_Model
 
     function dizi_takip($user)
     {
-        return $this->db->where('user_id',$user)->get('subscriber')->num_rows();
+        return $this->db->where('user_id',$user)->get('abonelikler')->num_rows();
     }
 
     function uye_takip($user)

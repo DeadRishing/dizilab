@@ -63,7 +63,7 @@
                                 <ul>
                                     <?php $b=1;
                                     foreach ($good_episodes as $val): ?>
-                                    <li><a href="<?=bolum_url($val['permalink'],$val['season'],$val['episode'])?>?ref=populer_tabs"><span class="fa fa-eye"></span><span class="position"><?=$b?></span><span class="info"><img data-load-image="/upload/series/<?=$val['permalink']?>_thumb.png?v=5.5" src="<?=$_SERVER["REQUEST_URI"] = "/template/assets/images/transparent.png";?>" alt=""><span class="title"><?=$val['showtitle']?></span><span class="category">Sezon <?=$val['season']?>, Bölüm <?=$val['episode']?></span></span></a></li>
+                                    <li><a href="<?=bolum_url($val['permalink'],$val['season'],$val['episode'])?>?ref=populer_tabs"><span class="fa fa-eye"></span><span class="position"><?=$b?></span><span class="info"><img data-load-image="<?=thumb($val['permalink'])?>" src="<?=img_loader()?>" alt=""><span class="title"><?=$val['showtitle']?></span><span class="category">Sezon <?=$val['season']?>, Bölüm <?=$val['episode']?></span></span></a></li>
                                     <?php $b++; ?>
                                     <?php endforeach ?>
                                 </ul>
@@ -72,7 +72,7 @@
                                 <ul>
                                     <?php $c=1;
                                     foreach ($bad_episodes as $val): ?>
-                                    <li><a href="<?=bolum_url($val['permalink'],$val['season'],$val['episode'])?>?ref=dislike_tabs"><span class="fa fa-eye"></span><span class="position"><?=$c?></span><span class="info"><img data-load-image="/upload/series/<?=$val['permalink']?>_thumb.png?v=5.5" src="<?=$_SERVER["REQUEST_URI"] = "/template/assets/images/transparent.png";?>" alt=""><span class="title"><?=$val['showtitle']?></span><span class="category">Sezon <?=$val['season']?>, Bölüm <?=$val['episode']?></span></span></a></li>
+                                    <li><a href="<?=bolum_url($val['permalink'],$val['season'],$val['episode'])?>?ref=dislike_tabs"><span class="fa fa-eye"></span><span class="position"><?=$c?></span><span class="info"><img data-load-image="<?=thumb($val['permalink'])?>" src="<?=img_loader()?>" alt=""><span class="title"><?=$val['showtitle']?></span><span class="category">Sezon <?=$val['season']?>, Bölüm <?=$val['episode']?></span></span></a></li>
                                     <?php $c++; ?>
                                     <?php endforeach ?>
                                 </ul>
@@ -97,7 +97,10 @@
                                     <div style="position:absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,.7); display: none; color: #fff; text-align: center;" class="episode-loader">
                                         <h3 style="font-size: 20px; font-weight: bold; padding-top: 40px;">Birazcık bekleticem, senin için çalışıyorum şuan....</h3>
                                     </div>
+                                    <a href="javascript:;" onclick="season_watch(1, &#39;elementary&#39;, this)" style="display: block; padding: 10px 16px; font-size: 13px; color: #96a0a4; background: rgba(0,0,0,.2); line-height: 21px" class="watch-btn">"1. sezonun tüm bölümlerini izledim" olarak işaretle <span class="fa fa-check" style="color: #111; width: 21px; height: 21px; display: inline-block; border-radius: 100%; float: left; text-align: center; line-height: 21px; margin-right: 15px; margin-left: 9px; background: #111; font-size: 16px"></span></a>
+                                    <!--
                                     <a href="javascript:;" onclick="season_watch(1, &#39;elementary&#39;, this)" style="display: block; padding: 10px 16px; font-size: 13px; color: #96a0a4; background: rgba(0,0,0,.2); line-height: 21px" class="watch-btn active">"1. sezonun tüm bölümlerini izledim" olarak işaretle <span class="fa fa-check" style="color: #111; width: 21px; height: 21px; display: inline-block; border-radius: 100%; float: left; text-align: center; line-height: 21px; margin-right: 15px; margin-left: 9px; background: #111; font-size: 16px"></span></a>
+                                -->
                                 <!--<div class="tv-series-episodes" tab-content="" style="display: block;">-->
                                     <ul>
                                         <li class="title">
@@ -124,7 +127,7 @@
                                             </span>
                                             <span><a class="season" href="/<?=$val['permalink']?>/sezon-<?=$val['season']?>/bolum-<?=$val['episode']?>"><?=$val['season']?>. Sezon</a></span>
                                             <span><a class="episode" href="/<?=$val['permalink']?>/sezon-<?=$val['season']?>/bolum-<?=$val['episode']?>"><?=$val['episode']?>. Bölüm</a></span>
-                                            <span><a class="episode-name" href="/<?=$val['permalink']?>/sezon-<?=$val['season']?>/bolum-<?=$val['episode']?>"><? if($val['description'] == ''){echo 'Episode #'.$val['season'].'.'.$val['episode'];}{echo $val['description'];}?></a></span>
+                                            <span><a class="episode-name" href="/<?=$val['permalink']?>/sezon-<?=$val['season']?>/bolum-<?=$val['episode']?>"><? if($val['description'] == ''){echo 'Episode #'.$val['season'].'.'.$val['episode'];}{if (strlen($val['description']) > 20) {$detay = substr($val['description'],0,20) . "..";}else{$detay = $val['description'];} echo $detay;}?></a></span>
                                             <span><span class="date"><?=date_tr('d F Y', $val['date_added']);?></span></span>
                                         </li>
                                         <?php endforeach ?>

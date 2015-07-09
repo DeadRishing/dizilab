@@ -11,7 +11,7 @@ class Archive extends Public_Controller
 	{
 		$data = $this->_data;
 		$data['title'] = 'Arşiv | '.sitename();
-		$data['categories'] = $this->show_model->get_Categories();
+		#$data['categories'] = $this->show_model->get_Categories();
 		$data['top_shows'] = $this->archive_model->get_top_shows();
 		$this->display('archive',$data);
 	}

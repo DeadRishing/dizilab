@@ -138,9 +138,29 @@ $detay = substr($val['description'],0,100) . " ..";}else{$detay = $val['descript
                 	<div class="archives-menu"> 
                 		<h3>Dizi türleri</h3>
                 		<ul>
-                            <?php foreach ($categories as $val): ?>
-                        <li><a href="/arsiv/<?=$val['perma']?>"><span class="fa fa-angle-right"></span><?=$val['tag']?></a></li>
-                        <?php endforeach ?>
+                            <li><a href="/arsiv/aile"><span class="fa fa-angle-right"></span>Aile</a></li>
+                                                <li><a href="/arsiv/aksiyon"><span class="fa fa-angle-right"></span>Aksiyon</a></li>
+                                                <li><a href="/arsiv/animasyon"><span class="fa fa-angle-right"></span>Animasyon</a></li>
+                                                <li><a href="/arsiv/belgesel"><span class="fa fa-angle-right"></span>Belgesel</a></li>
+                                                <li><a href="/arsiv/bilim-kurgu"><span class="fa fa-angle-right"></span>Bilim Kurgu</a></li>
+                                                <li><a href="/arsiv/biyografi"><span class="fa fa-angle-right"></span>Biyografi</a></li>
+                                                <li><a href="/arsiv/dram"><span class="fa fa-angle-right"></span>Dram</a></li>
+                                                <li><a href="/arsiv/fantastik"><span class="fa fa-angle-right"></span>Fantastik</a></li>
+                                                <li><a href="/arsiv/genclik"><span class="fa fa-angle-right"></span>Gençlik</a></li>
+                                                <li><a href="/arsiv/gerilim"><span class="fa fa-angle-right"></span>Gerilim</a></li>
+                                                <li><a href="/arsiv/gizem"><span class="fa fa-angle-right"></span>Gizem</a></li>
+                                                <li><a href="/arsiv/komedi"><span class="fa fa-angle-right"></span>Komedi</a></li>
+                                                <li><a href="/arsiv/korku"><span class="fa fa-angle-right"></span>Korku</a></li>
+                                                <li><a href="/arsiv/macera"><span class="fa fa-angle-right"></span>Macera</a></li>
+                                                <li><a href="/arsiv/mini-dizi"><span class="fa fa-angle-right"></span>Mini Dizi</a></li>
+                                                <li><a href="/arsiv/muzikal"><span class="fa fa-angle-right"></span>Müzikal</a></li>
+                                                <li><a href="/arsiv/polisiye"><span class="fa fa-angle-right"></span>Polisiye</a></li>
+                                                <li><a href="/arsiv/romantik"><span class="fa fa-angle-right"></span>Romantik</a></li>
+                                                <li><a href="/arsiv/savas"><span class="fa fa-angle-right"></span>Savaş</a></li>
+                                                <li><a href="/arsiv/spor"><span class="fa fa-angle-right"></span>Spor</a></li>
+                                                <li><a href="/arsiv/suc"><span class="fa fa-angle-right"></span>Suç</a></li>
+                                                <li><a href="/arsiv/tarih"><span class="fa fa-angle-right"></span>Tarih</a></li>
+                                                <li><a href="/arsiv/western"><span class="fa fa-angle-right"></span>Western</a></li>
                 		</ul>
                 		<h3>Yapım Yılı</h3>
                 		<ul>

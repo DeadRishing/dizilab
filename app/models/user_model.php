@@ -12,12 +12,6 @@ class User_model extends CI_Model
 		return $query->row();
     }
 
-    function get_Details($token)
-    {
-        $query = $this->db->where('login_token',$token)->get('uyeler');
-        return $query->result_array();
-    }
-
     function get_Notif($me,$limit)
     {
         $query = $this->db->where('user_id',$me)->order_by('date','DESC')->get('bildirimler',$limit);
@@ -73,7 +67,7 @@ class User_model extends CI_Model
 
     public function getFollowSeries($user = null,$limit = null)
     {
-        $query = $this->db->select('diziler.*')->from('subscriber,diziler')->where('show_id=diziler.id')->where('user_id',$user)->limit($limit)->get(); //SELECT user details where the username is equal to the give variable
+        $query = $this->db->select('diziler.*')->from('abonelikler,diziler')->where('show_id=diziler.id')->where('user_id',$user)->limit($limit)->get(); //SELECT user details where the username is equal to the give variable
         return $query->result_array();
     }
     public function getWatchTime($user = null)
@@ -100,10 +94,12 @@ class User_model extends CI_Model
     public function okunmamis($user)
     {
         return $this->db->where('user_id',$user)->where('read',0)->get('bildirimler')->num_rows();
-        //if($this->db->affected_rows() > 0){
-        //    return TRUE;
-        //}
-        //return FALSE;
+        /*
+        if($this->db->affected_rows() > 0){
+            return TRUE;
+        }
+        return FALSE;
+        */
     }
     public function get_user_watched_list($user_id){
         $query = $this->db->select('target_id')
