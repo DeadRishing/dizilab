@@ -5,10 +5,10 @@ Düzenle:
 
 app/config/database.php
 
-  'hostname' => 'localhost',
+  	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => 'mdxyz',
-	'database' => 'test',
+	'database' => 'test'
 
 
 
