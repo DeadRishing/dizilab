@@ -8,7 +8,7 @@ app/config/database.php
   	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => 'mdxyz',
-	'database' => 'test'
+	'database' => 'test',
 
 
 
