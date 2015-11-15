@@ -1,4 +1,4 @@
-# dizilab-clone-script
+# dizilab
 dizilab.com klon script
 
 Düzenle:
