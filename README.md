@@ -10,5 +10,6 @@ app/config/database.php
 	'password' => 'mdxyz',
 	'database' => 'test',
 
+laravel versiyonu yakında.
 
 
