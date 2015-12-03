@@ -10,6 +10,6 @@ app/config/database.php
 	'password' => 'mdxyz',
 	'database' => 'test',
 
-laravel versiyonu yakında.
+Diğer: https://github.com/mdxyz/dizilab-laravel
 
 
