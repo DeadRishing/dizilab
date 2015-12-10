@@ -7,9 +7,7 @@ app/config/database.php
 
   	'hostname' => 'localhost',
 	'username' => 'root',
-	'password' => 'mdxyz',
+	'password' => '123123',
 	'database' => 'test',
-
-Diğer: https://github.com/mdxyz/dizilab-laravel
 
 
