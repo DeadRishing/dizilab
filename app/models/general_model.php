@@ -13,11 +13,11 @@ class General_model extends CI_Model {
 			if (count($friends)){
 				$friends[] = $user_id;
 				foreach($friends as $k => $v){
-					$friends[$k] = mysql_real_escape_string($v);
+					$friends[$k] = $this->db->escape_str($v);
 				}
 				$where[] = "user_id IN (".implode(",",$friends).")";
 			} else {
-				$where[] = "user_id='".mysql_real_escape_string($user_id)."'";
+				$where[] = "user_id='".$this->db->escape_str($user_id)."'";
 			}
 		}
 		

@@ -83,7 +83,7 @@ class User extends Public_Controller
         $data['follow_series'] = $this->user_model->getFollowSeries($data['user']['usaid'],8);
         $data['follows'] = $this->user_model->getFollows($data['user']['usaid'],8);
         $data['followers'] = $this->user_model->getFollowers($data['user']['usaid'],8);
-        #$data['takipcim'] = $this->user_model->takip_ediyor_muyum($data['me']['user_id'],$data['user']['usaid']);
+        $data['takipcim'] = $this->user_model->takip_ediyor_muyum($data['me']['user_id'],$data['user']['usaid']);
         $this->display('user',$data);
 	}
 }

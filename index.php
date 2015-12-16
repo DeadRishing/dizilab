@@ -1,5 +1,4 @@
 <?php
-date_default_timezone_set('Europe/Istanbul');
 /**
  * CodeIgniter
  *
@@ -129,7 +128,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$view_folder = '';
+	$view_folder = 'template/assets/views';
 
 
 /*
