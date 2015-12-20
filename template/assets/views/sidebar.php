@@ -1,3 +1,4 @@
+<!-- left -->
 <div class="left"> <a class="logo" href="<?=base_url()?>"><span>dizilab</span></a>
     <div class="left-menu">
         <style>
@@ -17,7 +18,7 @@
                 border-radius: 2px 0 0 2px;
             }
         </style>
-        <?php if(!isset($me['login'])):?>
+        <?php if(!isset($i['login'])):?>
         <ul>
             <li><a href="javascript:;" data-open="#login-form"><span class="fa fa-bars"></span><span class="title">Pano</span></a></li>
             <li><a href="javascript:;" data-open="#login-form"><span class="fa fa-user"></span><span class="title">Profil</span></a></li>
@@ -31,7 +32,7 @@
         <?php else:?>
         <ul>
             <li><a href="<?=base_url('pano')?>"><span class="fa fa-bars"></span><span class="title">Pano</span></a></li>
-            <li><a href="<?=base_url('uye/'.$me['username'])?>"><span class="fa fa-user"></span><span class="title">Profil</span></a></li>
+            <li><a href="<?=base_url('uye/'.$i['username'])?>"><span class="fa fa-user"></span><span class="title">Profil</span></a></li>
             <li><a href="<?=base_url('pano/son-izlediklerim')?>"><span class="fa fa-play-circle"></span><span class="title">Son İzlediklerim</span></a></li>
             <li><a href="<?=base_url('pano/izleme-listesi')?>"><span class="fa fa-tasks"></span><span class="title">İzleme Listesi</span></a></li>
             <li><a href="<?=base_url('pano/takip-ettiklerim')?>"><span class="fa fa-eye"></span><span class="title">Takip Ettiklerim</span></a></li>

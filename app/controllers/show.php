@@ -3,14 +3,13 @@ class Show extends Public_Controller {
     public function __construct()
     {
         parent::__construct();
+		$this->load->library('shows');
         $this->load->model('show_model');
     }
     function index($permalink = NULL)
     {
         $data = $this->_data;
-    //    $data['show'] = $this->shows->get_show($permalink);
         if(($data['show'] = $this->shows->get_show($permalink)) === FALSE) redirect('404', 'refresh');
-    //    if(empty($data['show'])) redirect('404', 'refresh'); //show_404();
         $data['title'] = $data['show']['title'].' | '.sitename();
         $data['season_count'] = $this->show_model->sezon_sayisi($data['show']['dizid']);
         $data['episode_count'] = $this->show_model->bolum_sayisi($data['show']['dizid']);
@@ -18,11 +17,7 @@ class Show extends Public_Controller {
         $data['subscribers'] = $this->show_model->takipcileri($data['show']['dizid']);
         $data['good_episodes'] = $this->show_model->en_populer_bolumler($data['show']['dizid']);
         $data['bad_episodes'] = $this->show_model->en_kotu_bolumler($data['show']['dizid']);
-
         $data['seasons'] = $this->show_model->sezonlar($data['show']['dizid']);
-    //    $data['seasons'] = $this->categories_model->get_seasons($data['cat']['cat_id']);
-    //    $data['ep_seasons'] = $this->shows->get_episodes(&$data['seasons']);
-   //     $data['ep_seasons'] = $this->show_model->sezon_a_ait($data['show']['dizid'],1);
         $data['ep_season1'] = $this->show_model->sezon_a_ait($data['show']['dizid'],1);
         $data['ep_season2'] = $this->show_model->sezon_a_ait($data['show']['dizid'],2);
         $data['ep_season3'] = $this->show_model->sezon_a_ait($data['show']['dizid'],3);
@@ -33,12 +28,11 @@ class Show extends Public_Controller {
         $data['ep_season8'] = $this->show_model->sezon_a_ait($data['show']['dizid'],8);
         $data['ep_season9'] = $this->show_model->sezon_a_ait($data['show']['dizid'],9);
         $data['ep_season10'] = $this->show_model->sezon_a_ait($data['show']['dizid'],10);
-        if(isset($_SESSION['login'])) $data['user_watched_list'] = $this->user_model->get_user_watched_list($data['me']['user_id']);
-    //    $data['izledim'] = $this->show_model->yapildi_tablo($data['me']['user_id'],$data['ep_season1']['id'],$table='watched');
-    //    $data['episodes'] = $this->show_model->get_knkd($data['show']['dizid'],$season=1);
-    //    $data['episodes'] = $this->shows->get_last_shows($data['show']['dizid'],$season=1);
-
-    //    $data['episodes'] = $this->shows->get_episodes($data['show']['dizid'],&$data['seasons']);
-        $this->display('show', $data);
+        if(isset($_SESSION['login'])) $data['user_watched_list'] = $this->user_model->get_user_watched_list($data['i']['user_id']);
+		if (!$this->agent->is_mobile()) {
+			$this->display(array('header','show','sidebar','footer'),$data);
+		}else{
+			$this->display(array('mobile/header','mobile/show','mobile/footer'),$data);
+		}
     }
 }

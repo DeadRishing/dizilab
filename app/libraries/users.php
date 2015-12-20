@@ -8,7 +8,7 @@ class Users{
         $this->CI = &get_instance(  );
 
         $this->config = $config;
-        $this->CI->load->model( 'user_model' );
+        $this->CI->load->model('activity_model');
     }
     
     public function get_user($username)
@@ -37,7 +37,7 @@ class Users{
 
     function get_Notif($me,$limit)
     {
-        $strex = $this->CI->user_model->get_Notif($me,$limit);
+        $strex = $this->CI->notif_model->get_Notif($me,$limit);
         $resw = array();
             foreach($strex as $s)
             {
@@ -50,7 +50,7 @@ class Users{
 
     function last_activity($user_id,$target_type,$limit)
     {
-        $strea = $this->CI->user_model->last_activity($user_id,$target_type,$limit);
+        $strea = $this->CI->activity_model->last_activity($user_id,$target_type,$limit);
         $rest = array();
             foreach($strea as $s)
             {

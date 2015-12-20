@@ -83,7 +83,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url','language','cookie','security');
+$autoload['helper'] = array('url','language','cookie','security','date','text','typography','my');
 
 /*
 | -------------------------------------------------------------------
@@ -97,7 +97,7 @@ $autoload['helper'] = array('url','language','cookie','security');
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array();
+$autoload['config'] = array('general');
 
 /*
 | -------------------------------------------------------------------
@@ -111,7 +111,7 @@ $autoload['config'] = array();
 | "codeigniter_lang.php" would be referenced as array('codeigniter');
 |
 */
-$autoload['language'] = array();
+$autoload['language'] = array('my');
 
 /*
 | -------------------------------------------------------------------
@@ -126,4 +126,4 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array();
+$autoload['model'] = array('user_model','notif_model');

@@ -51,31 +51,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'main';
 
-$route['(:any)'] = 'show/index/$1';
-$route['(:any)/sezon-(:any)/bolum-(:any)'] = "episode/index/$1/$2/$3";
-
-$route['arsiv'] = 'archive';
-$route['takvim'] = 'calendar';
+$route['arsiv'] = 'pages/archive';
+$route['takvim'] = 'pages/calendar';
+$route['iletisim'] = 'pages/contact';
 $route['forum'] = 'forum';
-$route['iletisim'] = 'contact';
 
-//$route['giris'] = 'main/login';
-$route['cikis_yap'] = 'main/logout';
-
-$route['uye/(:any)'] = 'user/anonymous/$1';
 $route['pano'] = 'user/index';
 $route['pano/ayarlar'] = 'user/custom';
 $route['pano/son-izlediklerim'] = 'user/last_watched';
 $route['pano/takip-ettiklerim'] = 'user/followed_shows';
 $route['pano/sosyal-akis'] = 'user/social_stream';
+$route['cikis_yap'] = 'user/logout';
 
-$route['request/php'] = 'ajax';
+$route['uye/(:any)'] = 'profile/user/$1';
+$route['oyuncu/(:any)'] = 'profile/cast/$1';
 
 $route['404'] = '404';
-//$route['404_override'] = '404';
+
+$route['(:any)'] = 'show/index/$1';
+$route['(:any)/sezon-(:any)/bolum-(:any)'] = "episode/index/$1/$2/$3";
+
+$route['request/php'] = 'ajax';
 $route['translate_uri_dashes'] = FALSE;
-/*
-$route['default_controller'] = 'welcome';
-$route['404_override'] = '';
-$route['translate_uri_dashes'] = FALSE;
-*/

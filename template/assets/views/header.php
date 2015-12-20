@@ -69,7 +69,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 
 <body style="">
-    <? if(!isset($me['login'])):?>
+    <? if(!isset($i['login'])):?>
     <div class="popup" id="lostpassword-form">
         <div class="popup-content"><a class="popup-close" href="javascript:;" data-close="#lostpassword-form"><span class="fa fa-times"></span></a>
             <div class="popup-logo"><span></span></div>
@@ -98,10 +98,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <form id="login" action="" onsubmit="return false;">
                 <ul class="form">
                     <li>
-                        <input type="text" autocomplete="off" name="username" placeholder="Kullanıcı adı">
+                        <input type="text" autocomplete="off" name="username" placeholder="<?=lang('username')?>">
                     </li>
                     <li>
-                        <input type="password" autocomplete="off" name="password" placeholder="Şifre">
+                        <input type="password" autocomplete="off" name="password" placeholder="<?=lang('password')?>">
                     </li>
                     <li>
                         <input type="hidden" name="sh" value="">
@@ -121,19 +121,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="form-loader"></div>
                     <ul class="form">
                         <li>
-                            <input type="text" name="username" placeholder="Kullanıcı adı">
+                            <input type="text" name="username" placeholder="<?=lang('username')?>">
                         </li>
                         <li>
-                            <input type="password" name="password" placeholder="Şifre">
+                            <input type="password" name="password" placeholder="<?=lang('password')?>">
                         </li>
                         <li>
-                            <input type="text" name="email" placeholder="E-posta">
+                            <input type="text" name="email" placeholder="<?=lang('email')?>">
                         </li>
                         <li class="gender">
                             <select class="select" name="gender">
-                                <option value="">Cinsiyet</option>
-                                <option value="m">Erkek</option>
-                                <option value="f">Kadın</option>
+                                <option value=""><?=lang('gender')?></option>
+                                <option value="m"><?=lang('male')?></option>
+                                <option value="f"><?=lang('female')?></option>
                             </select>
                         </li>
                         <!--
@@ -195,16 +195,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="content">
             <div class="right">
                 <div class="header">
-                    <? if(!isset($me['login'])):?>
+                    <? if(!isset($i['login'])):?>
                     <ul class="register-link">
                         <li><a href="javascript:;" data-open="#login-form"><span class="fa fa-user"></span><strong>Giriş</strong> Yap </a></li>
                         <li><a href="javascript:;" data-open="#register-form"><span class="fa fa-plus"></span><strong>Kayıt</strong> Ol</a></li>
                     </ul>
                     <? else:?>
                     <div class="user-profile-url">
-                        <a data-open="#user-link" href="<?=base_url('profil/ayarlar')?>"><img class="user-avatar-bind" data-load-image="<?=avatar($me['user_id'])?>" src="<?=img_loader()?>" alt=""><span class="fa fa-caret-down"></span></a>
+                        <a data-open="#user-link" href="<?=base_url('profil/ayarlar')?>"><img class="user-avatar-bind" data-load-image="<?=avatar($i['user_id'])?>" src="<?=img_loader()?>" alt=""><span class="fa fa-caret-down"></span></a>
                         <ul id="user-link">
-                            <li><a href="<?=base_url('uye/'.$me['username'])?>">Profilim</a></li>
+                            <li><a href="<?=base_url('uye/'.$i['username'])?>">Profilim</a></li>
                             <li><a href="<?=base_url('pano')?>">Hesabım</a></li>
                             <li><a href="<?=base_url('pano/ayarlar')?>">Hesap Ayarları</a></li>
                             <li><a href="<?=base_url('cikis_yap')?>">Çıkış Yap</a></li>
@@ -347,7 +347,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li><a href="<?=base_url('forum')?>">forum</a></li>
                         <li><a href="http://goo.gl/forms/jBVnDti76e" target="_blank">çevirmenlik</a></li>
                         <li><a href="http://www.izlemeyedeger.com/" target="_blank" rel="friend met">film izle</a></li>
-                        <li style="border-right: none"><a href="<?=base_url('iletisim')?>">iletişim</a></li>
+                        <li><a href="<?=base_url('takvim')?>">takvim</a></li>
+						<li style="border-right: none"><a href="<?=base_url('iletisim')?>">iletişim</a></li>
                         <li style="float: right; padding-right: 0px;">
                             <a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fdizilab.com%2F&screen_name=dizilab&tw_p=followbutton" target="_blank"><img src="<?=assets_url('images/twitter.png')?>"></a>
                         </li>

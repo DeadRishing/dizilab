@@ -76,7 +76,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'english';
+$config['language']	= 'turkish';
 
 /*
 |--------------------------------------------------------------------------
@@ -422,7 +422,7 @@ $config['standardize_newlines'] = FALSE;
 |          for backwards compatibility purposes!
 |
 */
-$config['global_xss_filtering'] = FALSE;
+$config['global_xss_filtering'] = TRUE; #FALSE
 
 /*
 |--------------------------------------------------------------------------
@@ -465,7 +465,7 @@ $config['csrf_exclude_uris'] = array();
 | by the output class.  Do not 'echo' any values with compression enabled.
 |
 */
-$config['compress_output'] = FALSE;
+$config['compress_output'] = TRUE; #FALSE
 
 /*
 |--------------------------------------------------------------------------

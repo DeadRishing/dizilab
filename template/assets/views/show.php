@@ -1,4 +1,3 @@
-<?php $this->load->view('header');?>
                 <div class="right-inner">
                     <div class="tv-series-profile-head">
                         <div class="tv-series-image" style="position: relative">
@@ -427,5 +426,3 @@
                 </div>
                 <div class="clear"></div>
             </div>
-<?php $this->load->view('sidebar');?>
-<?php $this->load->view('footer');?>

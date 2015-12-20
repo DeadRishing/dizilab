@@ -1,4 +1,3 @@
-<?php $this->load->view('header');?>
                 <div class="light-off"></div>
                 <style>.light-off{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.8);z-index:50;display:none;}</style>
                 <div class="right-inner">
@@ -123,7 +122,7 @@
                     </div>
                     <div class="clear"></div>
                     <!-- add comment -->
-                    <?php if(!isset($me['login'])):?>
+                    <?php if(!isset($i['login'])):?>
                     <div class="add-comment">
                         <h3>Bölüm hakkında ne dediler?</h3>
                         <div class="no-comment">Yorum yazmak için <u style="cursor: pointer" data-open="#login-form">üye girişi</u> yapmanız gerekiyor.</div>
@@ -134,7 +133,7 @@
                         <form action="" id="addcomment" onsubmit="return false;">
                             <div class="loader-ajax"></div>
                             <div class="formm">
-                                <img data-load-image="<?=avatar($me['user_id'])?>" src="<?=img_loader()?>" alt=""/>
+                                <img data-load-image="<?=avatar($i['user_id'])?>" src="<?=img_loader()?>" alt=""/>
                                 <div class="add-comment-form">
                                     <div>
                                         <textarea name="yorum_text" id="" cols="30" rows="10" placeholder="Bu bölüm hakkındaki düşüncelerinizi paylaşın."></textarea>
@@ -246,7 +245,7 @@
             var en_altyazi = '<?=base_url();?>caption/<?=$ep['permalink']?>/en/<?=$ep['season']?>/<?=$ep['episode']?>.vtt';
             var video_360p = '';
             var is_login = false;
-            <?php if(isset($me['login'])):?>
+            <?php if(isset($i['login'])):?>
             is_login = true;
             <?php endif;?>
             var series_url = '<?=base_url();?>dizi/<?=$ep['permalink']?>';
@@ -293,8 +292,6 @@
                 </span>
             </div>
             <div class="clear"></div>
-            
-<?php $this->load->view('footer');?>
 <script type="text/javascript">
 function load_video(){
 
@@ -328,7 +325,6 @@ function load_video(){
             edgeStyle: 'uniform'
         },
         image: '<?=cover($ep['permalink']);?>',
-        <?php// foreach($thisepisode['embeds'] as $id => $ep){echo $ep['embed'];}?>
         <?=$ep['embed']?>
     });
     jwplayer("player").setVolume(70);

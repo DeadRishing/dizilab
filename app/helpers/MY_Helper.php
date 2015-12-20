@@ -56,11 +56,14 @@ function ago($time){
 }
 function assets_url($source) { return base_url('template/assets/'.$source); }
 function bolum_url($var1,$var2,$var3) { return base_url($var1.'/sezon-'.$var2.'/bolum-'.$var3); }
-#Dosyaları size ait sunucularda barındıracağınız zaman açın.
-#function thumb($source) { return empty($source)?'http://placehold.it/55x55&text=RESIM YOK':base_url('upload/series/'.$source.'_thumb.png?v=5.5'); }
-#function cover($source) { return empty($source)?'http://placehold.it/230x350&text=RESIM YOK':base_url('upload/series/'.$source.'_cover.png?v=5.5'); }
-function thumb($source) { return 'http://dizilab.com/upload/series/'.$source.'_thumb.png?v=5.5'; }
-function cover($source) { return 'http://dizilab.com/upload/series/'.$source.'_cover.png?v=5.5'; }
+
+    #function thumb($source) { return empty($source)?'http://placehold.it/55x55&text=RESIM YOK':base_url('upload/series/'.$source.'_thumb.png?v=5.5'); }
+    #function cover($source) { return empty($source)?'http://placehold.it/230x350&text=RESIM YOK':base_url('upload/series/'.$source.'_cover.png?v=5.5'); }
+	
+    function thumb($source) { return 'http://dizilab.com/upload/series/'.$source.'_thumb.png?v=5.5'; }
+    function cover($source) { return 'http://dizilab.com/upload/series/'.$source.'_cover.png?v=5.5'; }
+	function casta($source) { return base_url('upload/actor/'.$source.'.png'); }
+
 function img_loader() { return base_url('template/assets/images/transparent.png'); }
 function avatar($x) {
     

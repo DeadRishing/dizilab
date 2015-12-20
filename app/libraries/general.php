@@ -9,10 +9,20 @@ class General{
         if(is_array($config)) {
             $this->config = $config;
         }
+		$this->CI->load->model('stream_model');
+		$this->CI->load->model('profile_model');
+    }
+	public function get_cast($name)
+    {
+        if ($data = $this->CI->profile_model->get_cast($name)) {
+            $det1 = $data[0];
+            return $det1;
+        }
+        return false;
     }
     function get_Stream($limit,$user_id,$friends)
     {
-        $stream = $this->CI->general_model->get_Stream($limit,$user_id,$friends);
+        $stream = $this->CI->stream_model->get_Stream($limit,$user_id,$friends);
         $array1 = array();
         foreach($stream as $val)
         {
