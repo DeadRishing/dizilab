@@ -5,14 +5,14 @@ class Pages extends Public_Controller
     {
         parent::__construct();
         $this->load->model('show_model');
-        $this->load->model('archive_model');
+        $this->load->model('general_model');
     }
 	public function index() {}
 	public function archive()
 	{
 		$data = $this->_data;
 		$data['title'] = 'Arşiv | '.sitename();
-		$data['top_shows'] = $this->archive_model->get_top_shows();
+		$data['top_shows'] = $this->general_model->get_top_shows();
 		$this->display(array('header','pages/archive','sidebar','footer'),$data);
 	}
 	public function calendar()
