@@ -1,5 +1,5 @@
 <?php
-class Episode extends Public_Controller
+class Episode extends MY_Controller
 {
 	public function __construct()
 	{

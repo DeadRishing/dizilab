@@ -1,5 +1,5 @@
 <?php
-class Show extends Public_Controller {
+class Show extends MY_Controller {
     public function __construct()
     {
         parent::__construct();

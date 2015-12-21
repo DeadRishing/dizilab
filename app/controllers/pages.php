@@ -1,11 +1,10 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
-class Pages extends Public_Controller 
+class Pages extends MY_Controller 
 {
 	public function __construct()
     {
         parent::__construct();
-        $this->load->model('show_model');
-        $this->load->model('general_model');
+		$this->load->model(array('general_model','show_model'));
     }
 	public function index() {}
 	public function archive()

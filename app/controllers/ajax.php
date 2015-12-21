@@ -1,5 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
-class Ajax extends Public_Controller 
+class Ajax extends MY_Controller 
 {
 	public function __construct()
     {
@@ -199,6 +199,14 @@ class Ajax extends Public_Controller
                     #default: break;
                 }
             }
+
+			#if($this->input->post('id') && $this->input->post('type') == 'series_like'){}
+			#if($this->input->post('id') && $this->input->post('type') == 'series_dislike'){}
+			#if($this->input->post('id') && $this->input->post('type') == 'comment_like'){}
+			#if($this->input->post('id') && $this->input->post('type') == 'comment_dislike'){}
+			#if($this->input->post('id') && $this->input->post('type') == 'add_to_my_watch'){}
+			#if($this->input->post('id') && $this->input->post('type') == 'add_watch_later'){}
+			#if($this->input->post('id') && $this->input->post('type') == 'follow'){}
 			
 			if($this->input->post('yorum') && $this->input->post('type') == 'addcomment'){
 				if(!empty($_POST['yorum'])){
