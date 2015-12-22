@@ -12,4 +12,13 @@ class General_model extends CI_Model
     	$query = $this->db->order_by('imdb_rating','DESC')->get('diziler', 10);
     	return $query->result_array();
 	}
+	
+	function contact($data){
+        $query = $this->db->insert('istekler',$data);
+        if($query > 0){
+            return TRUE;
+        }
+        return FALSE;
+    }
+	
 }

@@ -4,29 +4,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title><?=(isset($title))?$title:sitename().' | yabancı dizi izle'?></title>
+    <title><?=(isset($title))?$title:title().' | yabancı dizi izle'?></title>
     <!--CloudFlare-->
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="dizilab.">
+	<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="dizilab.">
     <link rel="icon" href="<?=assets_url('images/favico_.png');?>" type="image/x-icon">
     <link rel="shortcut icon" href="<?=assets_url('images/favico_.png');?>" type="image/x-icon">
     <link rel="shortcut icon" href="<?=assets_url('images/favico_.png');?>" type="image/vnd.microsoft.icon">
-    <meta name="description" content="Sevdiğiniz tüm yabancı dizileri tek bir platform üzerinden sosyal olarak izlemenize ve takip etmenize olanak sağlar.">
+    <meta name="description" content="<?=(isset($description))?$description:description()?>">
     <link rel="stylesheet" href="<?=assets_url('styles/main.css');?>?v=5.7">
     <link rel="image_src" type="image/png" href="<?=assets_url('images/default-avatar.png');?>?v=5.7">
     <script src="<?=assets_url('scripts/jquery-min.js');?>"></script>
-    <style type="text/css">
-        .cf-hidden {
-            display: none;
-        }
-        
-        .cf-invisible {
-            visibility: hidden;
-        }
-    </style>
-    <meta property="og:image " content="<?=assets_url('images/default-avatar.png');?>?v=5.7">
-    <!--
-    <meta name="alexaVerifyID" content="************************">
-    -->
+	<meta property="og:image " content="<?=assets_url('images/default-avatar.png');?>?v=5.7">
+	<meta property="og:locale" content="tr_TR">
+	<meta property="og:type" content="video">
+	<meta property="og:title" content="<?=(isset($title))?$title:title().' | yabancı dizi izle'?>">
+	<meta property="og:description" content="<?=(isset($description))?$description:description()?>">
+	<meta property="og:url" content="<?=current_url()?>">
+	<link rel="canonical" href="<?=current_url()?>">
+	<meta property="og:site_name" content="dizilab">
+	<meta property="article:publisher" content="https://www.facebook.com/dizilab">
+	<meta property="article:author" content="http://facebook.com/dizilab">
+	<!--alexaVerifyID--><!--<style type="text/css">.cf-hidden {display: none;}.cf-invisible {visibility: hidden;}</style>-->
     <script>
         if (self != top) {
             top.location.replace(location.href);
@@ -40,7 +38,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 var expires = "expires=" + d.toUTCString();
                 document.cookie = cname + "=" + cvalue + "; " + expires;
             }
-
             function getCookie(cname) {
                 var name = cname + "=";
                 var ca = document.cookie.split(';');
@@ -64,15 +61,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 $('#ad-close').css('display', 'none');
             }
         });
-    </script>
-    <!--google-analytics|facebook|twitter-->
+    </script><!--yandek|google-analytics|facebook|twitter-->
 </head>
-
 <body style="">
     <? if(!isset($i['login'])):?>
     <div class="popup" id="lostpassword-form">
-        <div class="popup-content"><a class="popup-close" href="javascript:;" data-close="#lostpassword-form"><span class="fa fa-times"></span></a>
-            <div class="popup-logo"><span></span></div>
+        <div class="popup-content">
+		<a class="popup-close" href="javascript:;" data-close="#lostpassword-form">
+		<span class="fa fa-times"></span>
+		</a>
+            <div class="popup-logo">
+			<span></span>
+			</div>
             <div class="lostpassword-text">
                 <h2>şifrenizi sıfırlayın.</h2>
                 <p>dizilab.’e kayıt olurken sisteme girdiğiniz kullanıcı adınızı veya e-posta adresinizi doğru girdiğiniz takdirde size şifrenizi sıfırlamanız için bir e-posta bağlantısı göndereceğiz.</p>
@@ -88,20 +88,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </li>
                 </ul>
             </form>
-            <div class="lospassword"><a href="javascript:;" data-close="#lostpassword-form" data-open="#login-form" style="color: #b0bbc0">« Geri git</a></div>
-            <div class="alt">şifreni hatırladın mı?&nbsp;<a href="javascript:;" data-close="#lostpassword-form" data-open="#login-form">hemen giriş yap.</a></div>
+            <div class="lospassword">
+			<a href="javascript:;" data-close="#lostpassword-form" data-open="#login-form" style="color: #b0bbc0">« Geri git</a>
+			</div>
+            <div class="alt">
+			şifreni hatırladın mı?&nbsp;
+			<a href="javascript:;" data-close="#lostpassword-form" data-open="#login-form">hemen giriş yap.</a>
+			</div>
         </div>
     </div>
     <div class="popup" id="login-form">
-        <div class="popup-content"><a class="popup-close" href="javascript:;" data-close="#login-form"><span class="fa fa-times"></span></a>
-            <div class="popup-logo"><span></span></div>
+        <div class="popup-content">
+		<a class="popup-close" href="javascript:;" data-close="#login-form">
+		<span class="fa fa-times"></span>
+		</a>
+            <div class="popup-logo">
+			<span></span>
+			</div>
             <form id="login" action="" onsubmit="return false;">
                 <ul class="form">
                     <li>
-                        <input type="text" autocomplete="off" name="username" placeholder="<?=lang('username')?>">
+                        <input type="text" autocomplete="off" name="username" placeholder="Kullanıcı adı">
                     </li>
                     <li>
-                        <input type="password" autocomplete="off" name="password" placeholder="<?=lang('password')?>">
+                        <input type="password" autocomplete="off" name="password" placeholder="Şifre">
                     </li>
                     <li>
                         <input type="hidden" name="sh" value="">
@@ -109,33 +119,47 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </li>
                 </ul>
             </form>
-            <div class="lospassword"><a href="javascript:;" data-close="#login-form" data-open="#lostpassword-form">şifreni mi unuttun?</a></div>
-            <div class="alt">kayıtlı değil misin?&nbsp;<a href="javascript:;" data-close="#login-form" data-open="#register-form">hemen kayıt ol.</a></div>
+            <div class="lospassword">
+			<a href="javascript:;" data-close="#login-form" data-open="#lostpassword-form">şifreni mi unuttun?</a>
+			</div>
+            <div class="alt">
+			kayıtlı değil misin?&nbsp;
+			<a href="javascript:;" data-close="#login-form" data-open="#register-form">hemen kayıt ol.</a>
+			</div>
         </div>
     </div>
     <div class="popup" id="register-form">
-        <div class="popup-content"><a class="popup-close" href="javascript:;" data-close="#register-form"><span class="fa fa-times"></span></a>
-            <h3><strong>dizilab.</strong> hesap oluştur.</h3>
+        <div class="popup-content">
+		<a class="popup-close" href="javascript:;" data-close="#register-form">
+		<span class="fa fa-times"></span>
+		</a>
+            <h3>
+			<strong>dizilab.</strong> hesap oluştur.
+			</h3>
             <div class="register-content">
                 <form id="register" action="" onsubmit="return false;">
                     <div class="form-loader"></div>
                     <ul class="form">
                         <li>
-                            <input type="text" name="username" placeholder="<?=lang('username')?>">
+                            <input type="text" name="username" placeholder="Kullanıcı adı">
                         </li>
                         <li>
-                            <input type="password" name="password" placeholder="<?=lang('password')?>">
+                            <input type="password" name="password" placeholder="Şifre">
                         </li>
                         <li>
-                            <input type="text" name="email" placeholder="<?=lang('email')?>">
+                            <input type="text" name="email" placeholder="E-Posta">
                         </li>
                         <li class="gender">
                             <select class="select" name="gender">
-                                <option value=""><?=lang('gender')?></option>
-                                <option value="m"><?=lang('male')?></option>
-                                <option value="f"><?=lang('female')?></option>
+                                <option value="">Cinsiyet</option>
+                                <option value="1">Erkek</option>
+								<option value="2">Kadın</option>
                             </select>
                         </li>
+						<li>
+						<script src='https://www.google.com/recaptcha/api.js'></script>
+						<div class="g-recaptcha" data-sitekey="6LfppwUTAAAAAB2HDnsWy8VntAp8AkHDKqPzLoxK"></div>
+						</li>
                         <!--
                         <li>
                             <script src='https://www.google.com/recaptcha/api.js'></script>
@@ -170,7 +194,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </script>
     <? endif;?>
     <div id="ad-close" style="display: none;">Reklamı Kapat [x]</div>
-    <a class="banner" href="https://go.eu.bbelements.com/please/track/adClick/campaign/140226/plan/517783/banner/565925/bannerType/16/" target="_blank" style="display: none; background-image: url(http://dizilab.com/ads/youwin-mini.jpg);"></a>
+    <a class="banner" href="#" target="_blank" style="display: none; background-image: url(ads/youwin-mini.jpg);"></a>
     <style>
         .banner {
             text-indent: -9999px;
@@ -345,8 +369,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li><a href="<?=base_url()?>">anasayfa</a></li>
                         <li><a href="<?=base_url('arsiv')?>">dizi laboratuvarı</a></li>
                         <li><a href="<?=base_url('forum')?>">forum</a></li>
-                        <li><a href="http://goo.gl/forms/jBVnDti76e" target="_blank">çevirmenlik</a></li>
-                        <li><a href="http://www.izlemeyedeger.com/" target="_blank" rel="friend met">film izle</a></li>
+                        <!--<li><a href="http://localhost/" target="_blank" rel="friend met">film izle</a></li>-->
                         <li><a href="<?=base_url('takvim')?>">takvim</a></li>
 						<li style="border-right: none"><a href="<?=base_url('iletisim')?>">iletişim</a></li>
                         <li style="float: right; padding-right: 0px;">

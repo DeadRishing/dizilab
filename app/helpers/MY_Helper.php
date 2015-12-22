@@ -1,7 +1,11 @@
 <?php
-function sitename()
+function title()
 {
 	return 'dizilab.';
+}
+function description()
+{
+	return 'Sevdiğiniz tüm yabancı dizileri tek bir platform üzerinden sosyal olarak izlemenize ve takip etmenize olanak sağlar.';
 }
 $dizilab_mod = TRUE; # TRUE: Aktif | FALSE: Deaktif
 function rand_mesaj()
@@ -183,7 +187,7 @@ function date_tr($f, $zt = 'now'){
     if(strpos($z, 'Mayıs') !== false && strpos($f, 'F') === false) $z = str_replace('Mayıs', 'May', $z);
     return $z;
 }
-/*
+
 function is_serialized( $data ) {
     if ( !is_string( $data ) )
         return false;
@@ -233,12 +237,6 @@ function insertCookie($cookie_name, $value){
     $CI->input->set_cookie($cookie); 
 }
 
-function getCookie($cookie_name){
-    $CI =& get_instance();
-
-    return ($CI->input->cookie($cookie_name)) ? unserialize($CI->input->cookie($cookie_name)) : '';
-}
-
 function existCookie($cookie_name, $value){
     $CI =& get_instance();
     $cookie = $CI->input->cookie($cookie_name);
@@ -250,41 +248,10 @@ function existCookie($cookie_name, $value){
     return FALSE;
 }
 
-
-function videocontrolCookie($video_id){
-    $CI =& get_instance();
-    $data['vote_good'] = existCookie('video_good', $video_id);
-    $data['vote_normal'] = existCookie('video_normal', $video_id);
-    $data['vote_bad'] = existCookie('video_bad', $video_id);
-    return $data;
-}
 function br2nl( $input ) {
     return preg_replace('/<br(\s+)?\/?>|<p(?:\s+[^>]*)?>|<\/p>/i', "\n", $input);
 }
-function advertisment($advertisements, $ad_type, $content = ''){
-    if($advertisements){
-        if(array_key_exists($ad_type, $advertisements)){
-            return empty($content) ? stripslashes(html_entity_decode($advertisements[$ad_type])) : str_replace('{content}', stripslashes(html_entity_decode($advertisements[$ad_type])), $content);
-        }
-    }
-    return FALSE;
-}
-function MultidimensionalArrayGetVal($arrays, $val, $object = FALSE){
-    $data = array();
-    if(is_array($arrays)){
-        foreach($arrays as $array){
 
-            if($object){
-                $data[] = $array->$val;
-            }
-            else{
-                $data[] = $array[$val];
-            }
-        }
-    }
-    return $data;
-}
-*/
 function meta_clean($str){
     return str_replace('"',"'",$str);
 }

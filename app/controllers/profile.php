@@ -13,11 +13,11 @@ class Profile extends MY_Controller
 	public function user($username = NULL)
 	{
 		$data = $this->_data;
-		$data['user'] = $this->users->get_user($username);
+		$data['user'] = $this->user->get_user($username);
         if(empty($data['user'])) redirect('404', 'refresh');
-		$data['title'] = 'üye - '.$data['user']['username'].' | '.sitename();
+		$data['title'] = 'üye - '.$data['user']['username'].' | '.title();
 		$data['activity'] = $this->general->get_Stream(5,$data['user']['usaid'],$friends=null);
-		$data['last_watched'] = $this->users->last_activity($data['user']['usaid'],3,1);
+		$data['last_watched'] = $this->user->last_activity($data['user']['usaid'],3,1);
 		$data['izledikleri'] = $this->profile_model->izledikleri($data['user']['usaid']);
 		$data['dizi_takip'] = $this->profile_model->dizi_takip($data['user']['usaid']);
 		$data['uye_takip'] = $this->profile_model->uye_takip($data['user']['usaid']);
@@ -35,7 +35,8 @@ class Profile extends MY_Controller
         $data = $this->_data;
 		$data['cast'] = $this->general->get_cast($name);
         if(empty($data['cast'])) redirect('404', 'refresh');
-		$data['title'] = $data['cast']['name'].' | '.sitename();
+		$data['title'] = $data['cast']['name'].' | '.title();
+		$data['description'] = $data['cast']['name'].' hakkında, '.$data['cast']['name'].' rol aldığı diziler ve daha fazlası..';
 		$this->display(array('header','profile/cast','sidebar','footer'),$data);
 	}
 }

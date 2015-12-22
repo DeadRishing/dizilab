@@ -97,7 +97,7 @@ $autoload['helper'] = array('url','language','cookie','security','date','text','
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array('general');
+$autoload['config'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -111,7 +111,7 @@ $autoload['config'] = array('general');
 | "codeigniter_lang.php" would be referenced as array('codeigniter');
 |
 */
-$autoload['language'] = array('my');
+$autoload['language'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -126,4 +126,4 @@ $autoload['language'] = array('my');
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array('user_model','notif_model');
+$autoload['model'] = array('user_model');

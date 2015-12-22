@@ -4,9 +4,7 @@ class Ajax extends MY_Controller
 	public function __construct()
     {
         parent::__construct();
-        $this->load->model('show_model');
-		$this->load->model('episode_model');
-		$this->load->model('activity_model');
+        $this->load->model(array('series_model','episode_model','activity_model','general_model'));
     }
     public function index()
     {
@@ -14,39 +12,70 @@ class Ajax extends MY_Controller
 		$data = $this->_data;
 		$result = array();
         if(!isset($_SESSION['login'])){
-            if(isset($_POST['username']) && isset($_POST['password']) && $this->input->post('type') == 'login')
-                if(!empty($_POST['username']) && !empty($_POST['password'])){
-                    $this->db->select('*')->from('uyeler')->where('username',$this->input->post('username'))->where('password',$this->input->post('password'));
-                    $query = $this->db->get();
-                    if ($query->num_rows() == 0) {
-                        $result['error'] = 'Kullanıcı adınız veya şifreniz yanlış. Lütfen tekrar deneyin.';
-                    }else{
-                        $this->users->loginControl($this->input->post('username'),$this->input->post('password'));
-                        $result['error'] = false;
-                    }
-                }else $result['error'] = 'Tüm alanları doldurup tekrar deneyin.';
-            if(isset($_POST['username']) && isset($_POST['password']) && isset($_POST['email']) && $this->input->post('type') == 'register')
-                if(!empty($_POST['username']) && !empty($_POST['password']) && !empty($_POST['email'])){
-                    $data=array(
-                        'username'=>$this->input->post('username'),
-                        'email'=>$this->input->post('email'),
-                        'password'=>$this->input->post('password'),
-                        'gender'=>$this->input->post('gender'),
-                        'create_date'=>date('Y-m-d H:i:s')
-                    );
-				    if ($this->db->insert('uyeler',$data)) {
-                        $result['success'] = '<div class="popup-success"><strong>Üyeliğiniz başarıyla oluşturuldu ve son 1 adım kaldı.</strong>E-posta adresinize gelen bilgiler ile hesabınızı onaylayın ve dizilab in tadını çıkarmaya başlayın!</div>';
-                    }
-                }else $result['error'] = 'Tüm alanları doldurup tekrar deneyin.';
+			if($this->input->post('type')) {
+                switch ($this->input->post('type')) {
+					case "login":
+					if(!empty($_POST['username']) && !empty($_POST['password']))
+					{
+						$this->db->select('*')->from('uyeler')->where('username',$this->input->post('username'))->where('password',$this->input->post('password'));
+						$query = $this->db->get();
+						if ($query->num_rows() == 0)
+						{
+							$result['error'] = 'Kullanıcı adınız veya şifreniz yanlış. Lütfen tekrar deneyin.';
+						}else{
+							$this->user->loginControl($this->input->post('username'),$this->input->post('password'));
+							$result['error'] = false;
+						}
+					}else $result['error'] = 'Tüm alanları doldurup tekrar deneyin.';
+					break;
+					case "register":
+					if(!empty($_POST['username']) && !empty($_POST['password']) && !empty($_POST['email']) && !empty($_POST['gender']))
+					{
+						$data=array(
+							'username'=>$this->input->post('username'),
+							'email'=>$this->input->post('email'),
+							'password'=>$this->input->post('password'),
+							'gender'=>$this->input->post('gender'),
+							'create_date'=>date('Y-m-d H:i:s')
+						);
+						if ($this->db->insert('uyeler',$data)) {
+							$result['success'] = '<div class="popup-success"><strong>Üyeliğiniz başarıyla oluşturuldu ve son 1 adım kaldı.</strong>E-posta adresinize gelen bilgiler ile hesabınızı onaylayın ve dizilab in tadını çıkarmaya başlayın!</div>';
+						}
+					}else $result['error'] = 'Tüm alanları doldurup tekrar deneyin.';
+					break;
+					case "contact":
+					$data = array(
+						'who'=>$this->input->post('name').'|'.$this->input->post('email'),
+						'type'=>$this->input->post('types'),
+						'message'=>$this->input->post('text'),
+						'date'=>date('Y-m-d H:i:s')
+    				);
+					if(!$this->input->post('name') || !$this->input->post('email') || $this->input->post('types') == 0 || !$this->input->post('text')) $result['error'] = 'xx';
+					if($this->input->post('name') && $this->input->post('email') && !$this->input->post('types') == 0 && $this->input->post('text')) $this->general_model->contact($data);
+					if($data) {
+						$result['success'] = 'Gönderildi.';
+					}else{
+						$result['error'] = 'xx';
+					}
+					break;
+					case "lost_password":
+					$result['error'] = 'Girdiğiniz e-posta hatalı görünüyor, kontrol edin!';
+					break;
+					case "new_password":
+					$result['success'] = 'Gönderildi.';
+					break;
+                }
+            }
 		}elseif(isset($_SESSION['login'])){
-            if($this->input->post('id') && $this->input->post('type')) {
+            if($this->input->post('id') && $this->input->post('type'))
+			{
                 switch ($this->input->post('type')) {
                     case "watched":
                     if($this->user_model->izlendi($_SESSION['user_id'],$this->input->post('id')) === FALSE){
 					   $data = array(
                            'user_id'=>$_SESSION['user_id'],
                            'target_id'=>$this->input->post('id'),
-                           'min'=>$this->show_model->dizi_sure($this->input->post('id')),
+                           'min'=>$this->series_model->dizi_sure($this->input->post('id')),
                            'date'=>date("Y-m-d H:i:s")
 					   );
 					   $izlendi = $this->activity_model->addWatch($data);
@@ -150,7 +179,7 @@ class Ajax extends MY_Controller
                     if($this->user_model->izlendi($_SESSION['user_id'],$this->input->post('id')) === TRUE){
 						$this->activity_model->delWatch($_SESSION['user_id'],$this->input->post('id'));
 					}elseif($this->user_model->izlendi($_SESSION['user_id'],$this->input->post('id')) === FALSE){
-						$tt=$this->show_model->dizi_sure($this->input->post('id'));
+						$tt=$this->series_model->dizi_sure($this->input->post('id'));
 						$data = array(
 							'user_id'=>$_SESSION['user_id'],
 							'target_id'=>$this->input->post('id'),
@@ -173,6 +202,19 @@ class Ajax extends MY_Controller
 						$result['success'] = 'İzleyecekleriniz arasına eklendi :)';
 					}else $result['error'] = 'Bu diziyi izleyeceklerim listesine eklemişsin zaten. Kendini bu kadar fazla yorma dostum.';
                     break;
+					case "remove_watch_later":
+                    if($this->user_model->yapildi($_SESSION['user_id'],$this->input->post('id'),4) === TRUE){
+						$data = array(
+							'user_id'=>$_SESSION['user_id'],
+							'target_id'=>$this->input->post('id'),
+							'type'=>4,
+							'wall'=>1,
+							'date'=>date("Y-m-d H:i:s")
+						);
+						$this->activity_model->addItem($data);
+						$result['success'] = 'Bu bölümü izleyeceklerim listesinden sildik. :)';
+					}else $result['error'] = 'Bu bölümü izleyeceklerim listesine eklememişsin zaten.';
+                    break;
                     case "follow":
                     if($this->user_model->takip_ediyor_muyum($_SESSION['user_id'],$this->input->post('id')) === FALSE){
 						$data = array(
@@ -194,19 +236,21 @@ class Ajax extends MY_Controller
 						}
 					}
                     break;
-                    case "":
+                    case "series_follow":
+                    break;
+					case "artist_fan_add":
+                    break;
+					case "artist_fan_remove":
+                    break;
+					case "series_unfollow":
+                    break;
+					case "unfollow":
+                    break;
+					case "":
                     break;
                     #default: break;
                 }
             }
-
-			#if($this->input->post('id') && $this->input->post('type') == 'series_like'){}
-			#if($this->input->post('id') && $this->input->post('type') == 'series_dislike'){}
-			#if($this->input->post('id') && $this->input->post('type') == 'comment_like'){}
-			#if($this->input->post('id') && $this->input->post('type') == 'comment_dislike'){}
-			#if($this->input->post('id') && $this->input->post('type') == 'add_to_my_watch'){}
-			#if($this->input->post('id') && $this->input->post('type') == 'add_watch_later'){}
-			#if($this->input->post('id') && $this->input->post('type') == 'follow'){}
 			
 			if($this->input->post('yorum') && $this->input->post('type') == 'addcomment'){
 				if(!empty($_POST['yorum'])){
@@ -249,11 +293,15 @@ class Ajax extends MY_Controller
                                 </div>';
                 }else $result['error'] = 'aa';
 			}
+			
+			if($this->input->post('yorum') && $this->input->post('type') == 'artist_addcomment'){}
+			if($this->input->post('yorum') && $this->input->post('type') == 'series_addcomment'){}
+			if($this->input->post('yorum') && $this->input->post('type') == 'forum_addcomment'){}
 
 			if($this->input->post('type')) {
                 switch ($this->input->post('type')) {
                     case "read_notification":
-					$result['text'] = $this->notif_model->bildirim_okundu($_SESSION['user_id']);
+					$result['text'] = $this->user_model->bildirim_okundu($_SESSION['user_id']);
                     break;
 					case "update_profile":
 					$data = array(
@@ -271,6 +319,26 @@ class Ajax extends MY_Controller
 					case "last_watched":
 					break;
 					case "followed_series":
+					break;
+					case "contact":
+					$data = array(
+						'who'=>$_SESSION['user_id'],
+        				#'name'=>$this->input->post('name'),
+        				#'email'=>$this->input->post('email'),
+						'type'=>$this->input->post('types'),
+						'message'=>$this->input->post('text'),
+						'date'=>date('Y-m-d H:i:s')
+    				);
+					if($this->input->post('types') == 0 || !$this->input->post('text')) $result['error'] = 'err';
+					if(!$this->input->post('types') == 0 && $this->input->post('text')) $this->general_model->contact($data);
+					if($data) $result['success'] = 'succ';
+					break;
+					case "season_watch":
+					if($this->input->post('season') && $this->input->post('series_url')) {
+						$result['success'] = 'succ';
+					}else{
+						$result['error'] = 'err';
+					}
 					break;
                 }
             }

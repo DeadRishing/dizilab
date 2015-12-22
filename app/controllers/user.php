@@ -12,30 +12,30 @@ class User extends MY_Controller
 	{
 		$data = $this->_data;
         if(empty($data['i']['user_id'])) redirect('/', 'refresh');
-        $data['title'] = 'Profil | '.sitename();
+        $data['title'] = 'Profil | '.title();
         $data['activity'] = $this->general->get_Stream(4,$user_id=null,$friends=null);
-        $data['last_watched'] = $this->users->last_activity($data['i']['user_id'],3,5);
+        $data['last_watched'] = $this->user->last_activity($data['i']['user_id'],3,5);
         $data['izledikleri'] = $this->user_model->izledikleri($data['i']['user_id']);
         $data['dizi_takip'] = $this->user_model->dizi_takip($data['i']['user_id']);
         $data['uye_takip'] = $this->user_model->uye_takip($data['i']['user_id']);
         $data['takip_edenler'] = $this->user_model->takip_edenler($data['i']['user_id']);
         $data['yorum_say'] = $this->user_model->yorum_say($data['i']['user_id']);
         $data['yorumlarin'] = $this->user_model->yorumlarin($data['i']['user_id'],4);
-        $data['popular_series'] = $this->show_model->get_Popular_series($limit = 5);
+        $data['popular_series'] = $this->series_model->get_Popular_series($limit = 5);
 		$this->display(array('header','user/profile','sidebar','footer'),$data);
 	}
 	public function custom()
 	{
 		$data = $this->_data;
         if(empty($data['i']['user_id'])) redirect('/', 'refresh');
-        $data['title'] = 'Profil | '.sitename();
+        $data['title'] = 'Profil | '.title();
 		$this->display(array('header','user/custom','sidebar','footer'),$data);
 	}
 	public function last_watched()
 	{
 		$data = $this->_data;
         if(empty($data['i']['user_id'])) redirect('/', 'refresh');
-        $data['title'] = 'Son İzlediklerim | '.sitename();
+        $data['title'] = 'Son İzlediklerim | '.title();
         $data['izledikleri'] = $this->user_model->izledikleri($data['i']['user_id']);
         $data['dizi_takip'] = $this->user_model->dizi_takip($data['i']['user_id']);
         $data['uye_takip'] = $this->user_model->uye_takip($data['i']['user_id']);
@@ -48,7 +48,7 @@ class User extends MY_Controller
     {
         $data = $this->_data;
         if(empty($data['i']['user_id'])) redirect('/', 'refresh');
-        $data['title'] = 'Sosyal akış | '.sitename();
+        $data['title'] = 'Sosyal akış | '.title();
         $data['activity'] = $this->general->get_Stream($limit=7,$data['i']['user_id'],$friends=null);
         $this->display(array('header','user/stream','sidebar','footer'),$data);
     }
@@ -56,7 +56,7 @@ class User extends MY_Controller
     {
         $data = $this->_data;
         if(empty($data['i']['user_id'])) redirect('/', 'refresh');
-        $data['title'] = 'Takip ettiklerim | '.sitename();
+        $data['title'] = 'Takip ettiklerim | '.title();
         $data['izledikleri'] = $this->user_model->izledikleri($data['i']['user_id']);
         $data['dizi_takip'] = $this->user_model->dizi_takip($data['i']['user_id']);
         $data['uye_takip'] = $this->user_model->uye_takip($data['i']['user_id']);
