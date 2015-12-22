@@ -3,7 +3,8 @@ dizilab.com klon script
 
 Düzenle:
 
-      app/helpers/MY_Helper.php
+      app/config/config.php
       app/config/database.php
+      app/helpers/MY_Helper.php
 
 
