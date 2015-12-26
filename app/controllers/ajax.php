@@ -71,7 +71,7 @@ class Ajax extends MY_Controller
 			{
                 switch ($this->input->post('type')) {
                     case "watched":
-                    if($this->user_model->izlendi($_SESSION['user_id'],$this->input->post('id')) === FALSE){
+                    if($this->user_model->watched($_SESSION['user_id'],$this->input->post('id')) === FALSE){
 					   $data = array(
                            'user_id'=>$_SESSION['user_id'],
                            'target_id'=>$this->input->post('id'),
@@ -93,9 +93,9 @@ class Ajax extends MY_Controller
 				    }
 					break;
                     case "series_like":
-                    if($this->user_model->yapildi($_SESSION['user_id'],$this->input->post('id'),3) === TRUE){
+                    if($this->user_model->donkilot($_SESSION['user_id'],$this->input->post('id'),3) === TRUE){
 						$result['error'] = 'Beğenmediğin bölümü birden beğenmeye mi karar verdin yani? Dostum bu yeni sen, sen değilsin..';
-				    }elseif($this->user_model->yapildi($_SESSION['user_id'],$this->input->post('id'),2) === TRUE){
+				    }elseif($this->user_model->donkilot($_SESSION['user_id'],$this->input->post('id'),2) === TRUE){
 						$result['error'] = 'Bu bölümü zaten beğendin. Tamam, anladık çok beğendin.';
 				    }else{
 						$data = array(
@@ -121,9 +121,9 @@ class Ajax extends MY_Controller
 				    }
                     break;
                     case "series_dislike":
-                    if($this->user_model->yapildi($_SESSION['user_id'],$this->input->post('id'),2) === TRUE){
+                    if($this->user_model->donkilot($_SESSION['user_id'],$this->input->post('id'),2) === TRUE){
 						$result['error'] = 'Bu diziyi daha önce beğendiğin için artık kararını değiştiremezsin. Beğendin dostum, kabul et artık bunu.';
-				    }elseif($this->user_model->yapildi($_SESSION['user_id'],$this->input->post('id'),3) === TRUE){
+				    }elseif($this->user_model->donkilot($_SESSION['user_id'],$this->input->post('id'),3) === TRUE){
 						$result['error'] = 'Tamam dostum, anladık. Beğenmedin bu bölümü, ısrar etme artık. Dislike manyağı yaptın bölümü, yazıktır günahtır.';
 				    }else{
 						$data = array(
@@ -138,11 +138,11 @@ class Ajax extends MY_Controller
 				    }
                     break;
                     case "comment_like":
-                    if($this->user_model->benim_yorumum($_SESSION['user_id'],$this->input->post('id')) === TRUE){
+                    if($this->user_model->my_comment($_SESSION['user_id'],$this->input->post('id')) === TRUE){
 						$result['error'] = 'Kendi yorumunuzu değerlendiremezsiniz.';
-					}elseif($this->user_model->yapildi($_SESSION['user_id'],$this->input->post('id'),6) === TRUE){
+					}elseif($this->user_model->donkilot($_SESSION['user_id'],$this->input->post('id'),6) === TRUE){
 						$result['error'] = 'Bu yorumu zaten beğendin, teşekkürler ilgi ve alakan için.';
-					}elseif($this->user_model->yapildi($_SESSION['user_id'],$this->input->post('id'),7) === TRUE){
+					}elseif($this->user_model->donkilot($_SESSION['user_id'],$this->input->post('id'),7) === TRUE){
 						$result['error'] = 'Bu yorumu daha önce beğenmediğin için şimdide beğenmene biz izin vermiyoruz. Bir karar alırsın ve sonuçlarına katlanırsın bro.';
 					}else{
 						$data = array(
@@ -157,11 +157,11 @@ class Ajax extends MY_Controller
 					}
                     break;
                     case "comment_dislike":
-                    if($this->user_model->benim_yorumum($_SESSION['user_id'],$this->input->post('id')) === TRUE){
+                    if($this->user_model->my_comment($_SESSION['user_id'],$this->input->post('id')) === TRUE){
 						$result['error'] = 'Kendi yorumunuzu değerlendiremezsiniz.';
-					}elseif($this->user_model->yapildi($_SESSION['user_id'],$this->input->post('id'),6) === TRUE){
+					}elseif($this->user_model->donkilot($_SESSION['user_id'],$this->input->post('id'),6) === TRUE){
 						$result['error'] = 'Bu yorumu daha önce beğendiğin için şimdi kararından vazcayamazsın bro.';
-					}elseif($this->user_model->yapildi($_SESSION['user_id'],$this->input->post('id'),7) === TRUE){
+					}elseif($this->user_model->donkilot($_SESSION['user_id'],$this->input->post('id'),7) === TRUE){
 						$result['error'] = 'Bu yorumu daha önce beğenmediğini dile getirmişsin, bence artık daha fazla basma. Parmaklarına yazık.';
 					}else{
 						$data = array(
@@ -176,9 +176,9 @@ class Ajax extends MY_Controller
 					}
                     break;
                     case "add_to_my_watch":
-                    if($this->user_model->izlendi($_SESSION['user_id'],$this->input->post('id')) === TRUE){
+                    if($this->user_model->watched($_SESSION['user_id'],$this->input->post('id')) === TRUE){
 						$this->activity_model->delWatch($_SESSION['user_id'],$this->input->post('id'));
-					}elseif($this->user_model->izlendi($_SESSION['user_id'],$this->input->post('id')) === FALSE){
+					}elseif($this->user_model->watched($_SESSION['user_id'],$this->input->post('id')) === FALSE){
 						$tt=$this->series_model->dizi_sure($this->input->post('id'));
 						$data = array(
 							'user_id'=>$_SESSION['user_id'],
@@ -190,7 +190,7 @@ class Ajax extends MY_Controller
 					}
                     break;
                     case "add_watch_later":
-                    if($this->user_model->yapildi($_SESSION['user_id'],$this->input->post('id'),4) === FALSE){
+                    if($this->user_model->donkilot($_SESSION['user_id'],$this->input->post('id'),4) === FALSE){
 						$data = array(
 							'user_id'=>$_SESSION['user_id'],
 							'target_id'=>$this->input->post('id'),
@@ -203,7 +203,7 @@ class Ajax extends MY_Controller
 					}else $result['error'] = 'Bu diziyi izleyeceklerim listesine eklemişsin zaten. Kendini bu kadar fazla yorma dostum.';
                     break;
 					case "remove_watch_later":
-                    if($this->user_model->yapildi($_SESSION['user_id'],$this->input->post('id'),4) === TRUE){
+                    if($this->user_model->donkilot($_SESSION['user_id'],$this->input->post('id'),4) === TRUE){
 						$data = array(
 							'user_id'=>$_SESSION['user_id'],
 							'target_id'=>$this->input->post('id'),
@@ -216,7 +216,7 @@ class Ajax extends MY_Controller
 					}else $result['error'] = 'Bu bölümü izleyeceklerim listesine eklememişsin zaten.';
                     break;
                     case "follow":
-                    if($this->user_model->takip_ediyor_muyum($_SESSION['user_id'],$this->input->post('id')) === FALSE){
+                    if($this->user_model->ifollowu($_SESSION['user_id'],$this->input->post('id')) === FALSE){
 						$data = array(
 							'user1'=>$_SESSION['user_id'],
 							'user2'=>$this->input->post('id'),
@@ -301,7 +301,7 @@ class Ajax extends MY_Controller
 			if($this->input->post('type')) {
                 switch ($this->input->post('type')) {
                     case "read_notification":
-					$result['text'] = $this->user_model->bildirim_okundu($_SESSION['user_id']);
+					$result['text'] = $this->user_model->read($_SESSION['user_id']);
                     break;
 					case "update_profile":
 					$data = array(

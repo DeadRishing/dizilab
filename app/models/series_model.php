@@ -52,43 +52,43 @@ class Series_model extends CI_Model
     	return $query->result_array();
 	}
 
-	function sezon_sayisi($show_id)
+	function ssnsthenum($show_id)
 	{
 		return $this->db->distinct()->select('season')->from('bolumler')->where('show_id',$show_id)->get('')->num_rows();
 	}
 
-	function sezonlarr($show_id)
+	function _ssns($show_id)
 	{
 		return $this->db->distinct()->select('season')->from('bolumler')->where('show_id',$show_id)->get('')->result_array();
 	}
 
-	function bolum_sayisi($show_id)
+	function sctnthenum($show_id)
 	{
 		return $this->db->select('episode')->from('bolumler')->where('show_id',$show_id)->get('')->num_rows();
 	}
 
-	function takipcileri($show_id)
+	function followers($show_id)
 	{
 		return $this->db->where('show_id',$show_id)->get('abonelikler')->num_rows();
 	}
 	//enler
-	function en_son_bolum($show_id)
+	function final_section($show_id)
 	{
 		return $this->db->select('diziler.permalink, bolumler.episode, bolumler.season, bolumler.description, bolumler.date_added')->from('bolumler,diziler')->where('bolumler.show_id=diziler.id')->where('bolumler.show_id',$show_id)->order_by('bolumler.date_added','DESC')->get('', 1)->result_array();
 	}
 
-	function en_populer_bolumler($show_id)
+	function most_popular_sections($show_id)
 	{
 		return $this->db->select('diziler.permalink, diziler.title as showtitle, bolumler.episode, bolumler.season')->from('bolumler,diziler')->where('bolumler.show_id=diziler.id')->where('bolumler.show_id',$show_id)->order_by('bolumler.liked','DESC')->get('', 5)->result_array();
 	}
 
-	function en_kotu_bolumler($show_id)
+	function worst_sections($show_id)
 	{
 		return $this->db->select('diziler.permalink, diziler.title as showtitle, bolumler.episode, bolumler.season')->from('bolumler,diziler')->where('bolumler.show_id=diziler.id')->where('bolumler.show_id',$show_id)->order_by('bolumler.unliked','DESC')->get('', 5)->result_array();
 	}
-	function sezonlar($show_id){
+	function ssns($show_id){
 		$query = $this->db->distinct()->select('id,show_id,season,episode,date_added')
-	//	$query = $this->db->select('bolumler.id AS epid,show_id,season,episode,date_added')
+		#$query = $this->db->select('bolumler.id AS epid,show_id,season,episode,date_added')
 						  ->where('show_id',$show_id)
 						  ->group_by('season')
 						  ->get('bolumler');
@@ -97,7 +97,7 @@ class Series_model extends CI_Model
 		}
 		return FALSE;  
 	}
-	function sezon_a_ait($show_id,$season){
+	function of_the_season($show_id,$season){
 
 		$query = $this->db->select('diziler.permalink,bolumler.id AS epid,bolumler.season,bolumler.episode,bolumler.description,bolumler.date_added')
 						  ->from('diziler,bolumler')
@@ -113,7 +113,7 @@ class Series_model extends CI_Model
 		return FALSE;  
 	}
     
-    function dizi_sure($target_id){
+    function tsrs($target_id){
 		$query = $this->db->select('diziler.min')->from('bolumler,diziler')->where('bolumler.show_id=diziler.id')->where('bolumler.id',$target_id)->get()->row_array();
 		return $query['min'];
 	}

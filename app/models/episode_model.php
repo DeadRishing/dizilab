@@ -110,12 +110,12 @@ class Episode_model extends CI_Model
 		return FALSE;
 	}
 	
-	public function yorumlar($id){
+	public function comments($id){
     	$query = $this->db->select('yorumlar.*,uyeler.*')->from('yorumlar,uyeler')->where('target_id',$id)->where('yorumlar.user_id=uyeler.user_id')->order_by('tarih','DESC')->get();
         return $query->result_array();
     }
 	
-    public function yorum_sayisi($show_id)
+    public function nofcomm($show_id)
 	{
 		return $this->db->select('target_id')->from('yorumlar')->where('target_id',$show_id)->get('')->num_rows();
 	}

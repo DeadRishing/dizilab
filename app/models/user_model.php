@@ -39,26 +39,26 @@ class User_model extends CI_Model
     {
         return $this->db->query('SELECT SUM(min) as toplam FROM watched where user_id='.$user.'');
     }
-	function yorumlarin($user,$limit)
+	function thycomm($user,$limit)
     {
         return $this->db->where('user_id',$user)->get('yorumlar',$limit)->result_array();
     }
-	function izledikleri($user)
+	function wtchdby($user)
     {
         return $this->db->where('user_id',$user)->get('izlediklerim')->num_rows();
     }
 
-    function dizi_takip($user)
+    function srsf($user)
     {
         return $this->db->where('user_id',$user)->get('abonelikler')->num_rows();
     }
 
-    function uye_takip($user)
+    function mmbrf($user)
     {
         return $this->db->where('user1',$user)->get('arkadaslar')->num_rows();
     }
 
-    function takip_edenler($user)
+    function whof($user)
     {
         return $this->db->where('user2',$user)->get('arkadaslar')->num_rows();
     }
@@ -69,7 +69,7 @@ class User_model extends CI_Model
         return $query->result_array();
     }
 	
-	function yorum_say($user)
+	function commcount($user)
     {
         return $this->db->where('user_id',$user)->get('yorumlar')->num_rows();
     }
@@ -97,7 +97,7 @@ class User_model extends CI_Model
 
     }
 	
-	public function benim_yorumum($user_id,$comment_id)
+	public function my_comment($user_id,$comment_id)
 	{
 		$query = $this->db->where('user_id',$user_id)->where('target_id',$comment_id)->get('yorumlar');
 		if($this->db->affected_rows() > 0){
@@ -105,7 +105,7 @@ class User_model extends CI_Model
 		}
 		return FALSE;
 	}
-    public function takip_ediyor_muyum($id,$hedef){
+    public function ifollowu($id,$hedef){
         $this->db->where('user1',$id)->where('user2',$hedef)->get('arkadaslar');
         if($this->db->affected_rows() > 0){
             return TRUE;
@@ -113,7 +113,7 @@ class User_model extends CI_Model
         return FALSE;
     }
 	
-	function izlendi($where1,$where2){
+	function watched($where1,$where2){
         
         $query = $this->db->where('user_id',$where1)->where('target_id',$where2)
 						->get('izlediklerim');
@@ -123,7 +123,7 @@ class User_model extends CI_Model
 		return FALSE;  
     }
 	
-	function yapildi($user,$target,$type){
+	function donkilot($user,$target,$type){
         
         $query = $this->db->where('user_id',$user)
         				->where('target_id',$target)
@@ -134,12 +134,12 @@ class User_model extends CI_Model
 		}
 		return FALSE;  
     }
-    function yapildi_sayisi($user,$type)
+    function done_number($user,$type)
     {
         return $this->db->where('user_id',$user)->where('type',$type)->get('yaptiklarim')->num_rows();
     }
 
-	function yapildi_tablo($where1=NULL,$where2=NULL,$table=NULL){
+	function done_table($where1=NULL,$where2=NULL,$table=NULL){
         
         $query = $this->db->where($where1,$where1)->where($where2,$where2)
 						->get($table);
@@ -155,7 +155,7 @@ class User_model extends CI_Model
         return $query->result_array();
     }
 	
-	public function aktif_guncelle($u)
+	public function lau($u)
     {
         $this->db->where('user_id',$u)->update('uyeler',array('last_activity'=>date('Y-m-d H:i:s')));
         if($this->db->affected_rows() > 0){
@@ -163,7 +163,7 @@ class User_model extends CI_Model
         }
         return FALSE;
     }
-    public function bildirim_okundu($u)
+    public function read($u)
     {
         $this->db->where('user_id',$u)->update('bildirimler',array('read'=>1));
         if($this->db->affected_rows() > 0){
@@ -171,7 +171,7 @@ class User_model extends CI_Model
         }
         return FALSE;
     }
-    public function okunmamis($user)
+    public function unread($user)
     {
         return $this->db->where('user_id',$user)->where('read',0)->get('bildirimler')->num_rows();
     }

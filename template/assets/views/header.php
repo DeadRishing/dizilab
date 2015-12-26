@@ -235,7 +235,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </ul>
                     </div>
                     <ul class="user-bar">
-                        <li<? if($okunmamis):?> class="active"<? endif;?>><a href="#" data-open="#notif" onclick="read_notification()"><span class="fa fa-bell"></span><? if($okunmamis): ?><span class="notification"><?=$okunmamis?></span><? endif; ?></a>
+                        <li<? if($yetunread):?> class="active"<? endif;?>><a href="#" data-open="#notif" onclick="read_notification()"><span class="fa fa-bell"></span><? if($yetunread): ?><span class="notification"><?=$yetunread?></span><? endif; ?></a>
                         <!--<li><a href="#" data-open="#notif"><span class="fa fa-bell"></span></a>-->
                             <div class="notif" id="notif" style="display: none">
                                 <div class="notif-head">Bildirimler</div>
@@ -279,8 +279,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         </div>
                                     </div>
                                 </div>
-                                <? if($okunmamis): ?>
-                                <div class="notif-foot"><?=$okunmamis?> adet yeni bir bildirimin var gibi.</div>
+                                <? if($yetunread): ?>
+                                <div class="notif-foot"><?=$yetunread?> adet yeni bir bildirimin var gibi.</div>
                             <? else: ?>
                                 <div class="notif-foot">yeni bildirim bulunmuyor.</div>
                             <? endif; ?>
