@@ -282,6 +282,5 @@ function watched_list($target_id=0,$wathced_list=array()){
                                             </span>';
     }
 }
-
-
+function baslangic(){}
 
