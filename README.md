@@ -3,11 +3,8 @@ dizilab.com klon script
 
 Düzenle:
 
-app/config/database.php
-
-  	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '123123',
-	'database' => 'test',
+      app/config/config.php
+      app/config/database.php
+      app/helpers/MY_Helper.php
 
 
